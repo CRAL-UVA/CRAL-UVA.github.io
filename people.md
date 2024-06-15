@@ -45,7 +45,7 @@ permalink: /people/
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
           {% endif %} 
           <a class="name" href="{{ site.baseurl }}{{ profile.url }}" style="font-weight: bold;">{{ profile.name }}</a><br>
-          <a class="scholar" href="https://scholar.google.com/citations?user={{ profile.scholar }}&hl="  style="font-size: smaller;">Google Scholar</a>
+          <!-- <a class="scholar" href="https://scholar.google.com/citations?user={{ profile.scholar }}&hl="  style="font-size: smaller;">Google Scholar</a> -->
         </p>
       </div>    
     {% endif %}

@@ -3,13 +3,20 @@ name: Rohan Chandra
 position: pi
 avatar: chandra.jpg
 twitter: rohanchandra30
-scholar: uOIgTt8AAAAJ
+scholar: 
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-- _Assistant Professor, Dept. of Computer Science, University of Virginia_<br>
+- _**Assistant Professor, Dept. of Computer Science, University of Virginia**_<br>
+- _Postdoctoral Research Fellow, Dept. of Computer Science, University of Texas at Austin, 2024_<br>
+- _Ph.D. & M.S., Computer Science, University of Maryland, College Park, 2022_<br>
+- _B.Tech., Electronics and Communication Engineering, Delhi Technological University, India, 2016_<br>
 
+
+<i class="fa fa-file-pdf-o"></i> [`CV`](/documents/CV_Chandra.pdf)
+<i class="fa fa-graduation-cap"></i> [`google scholar`](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=)
+<i class="fa fa-twitter"></i> [`twitter`](https://x.com/rohanchandra30)
 <i class="fa fa-envelope-o"></i> `rohanchandra@virginia.edu`
 
 **Office**<br>

@@ -7,6 +7,12 @@ For those interested in numbers, see Rohan's [google scholar citations profile](
 <hr>
 
 <h4>2024</h4>
+
+ _Predicting Acute Pain Levels Implicitly from Vocal Features_<br>
+Jennifer Williams, Eike Schneiders, Henry Card, Tina Seabrooke, Beatrice Pakenham-Walsh, Tayyaba Azim, Lucy Valls-Reed, Ganesh Vigneswaran, John Robert Bautista, Rohan Chandra, Arya Farahi<br>
+INTERSPEECH, 2024<br>
+[PDF]()
+
 _SOCIALGYM 2.0: Simulator for Multi-Robot Learning and Navigation in Shared Human Spaces_<br>
 Rohan Chandra, Zayne Sprague, Joydeep Biswas<br>
 Proceedings of the AAAI Conference on Artificial Intelligence, 2024<br>
