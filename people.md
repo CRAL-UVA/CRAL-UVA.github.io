@@ -70,12 +70,13 @@ permalink: /people/
 
 Here are some cool people in fields that interest us. **note:** This list is in no way complete. We have a lot of collaborators -- if you've collaborated with us and want a link here, let us know!
 
+**IIIT Hyderabad:**
+- [Ravi Kiran Sarvadevabhatla - Dept of Computer Science](https://ravika.github.io/)
+
 **University of Maryland, College Park:**
 - [Dinesh Manocha - Dept of Computer Science](https://www.cs.umd.edu/~dm/)
-- [Tianrui Guan - Dept of Computer Science](https://tianruiguan.phd/)
 
 **University of Texas at Austin:**
-- [Dinesh Manocha - Dept of Computer Science](https://www.cs.umd.edu/~dm/)
 - [Joydeep Biswas - Dept of Computer Science](https://www.joydeepb.com/)
 - [Peter Stone - Dept of Computer Science](https://www.cs.utexas.edu/~pstone/)
 - [Vrushabh Zinage - Dept of Aerospace Engineering](https://vrushabh27.github.io/vrushabh_zinage/)
