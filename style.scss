@@ -505,6 +505,10 @@ tbody tr:nth-child(odd) th {
   color: #c42929;
 }
 
+.list-item a:hover, .list-post-title:hover .scholar, .list-post-title .scholar:hover {
+  color: #29c4a0;
+}
+
 .page-title {
   margin-bottom: 0.6em;
 }

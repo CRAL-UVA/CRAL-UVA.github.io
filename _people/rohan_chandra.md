@@ -3,6 +3,7 @@ name: Rohan Chandra
 position: pi
 avatar: chandra.jpg
 twitter: rohanchandra30
+scholar: uOIgTt8AAAAJ
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
