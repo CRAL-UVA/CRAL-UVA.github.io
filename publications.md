@@ -3,8 +3,8 @@ title: Publication
 permalink: /publication/
 ---
 
-For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=).
-<hr>
+<!-- For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=). -->
+<!-- <hr> -->
 
 <h4>2024</h4>
 
