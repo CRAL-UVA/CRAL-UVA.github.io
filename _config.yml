@@ -4,12 +4,12 @@
 
 # Basic
 name: "Chandra Robot Δutonomy Lab"
-title:              "Chandra Robot Δutonomy Lab at the University of Virginia"
-description:        "The Chandra Robot Δutonomy Lab is a robotics and autonomoy research group at the University of Virginia."
+title: "Chandra Robot Δutonomy Lab at the University of Virginia"
+description: "The Chandra Robot Δutonomy Lab is a robotics and autonomoy research group at the University of Virginia."
 
 
 # URL
-url:                https://cral-uva.github.io/
+url: https://cral-uva.github.io/
 baseurl:            
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
