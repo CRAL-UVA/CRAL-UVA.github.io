@@ -28,6 +28,8 @@ nav:
     href:           "/research"
   - name:           "publications"
     href:           "/publication"
+  # - name:           "litreview"
+  #   href:           "/litreview"
   - name:           "team"
     href:           "/people"
   # - name:           "blog"

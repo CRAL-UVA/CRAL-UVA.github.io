@@ -1,0 +1,79 @@
+---
+title: LitReview
+permalink: /litreview/
+---
+
+<!-- For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=). -->
+<!-- <hr> -->
+
+
+<h4>Visual Navigation</h4>
+_Multi-Agent Embodied Visual Semantic Navigation with Scene Prior Knowledge_<br>
+Xinzhu Liu, Di Guo, Huaping Liu, Fuchun Sun<br>
+arXiv, September 20, 2021<br>
+[PDF](http://arxiv.org/abs/2109.09531)
+
+_Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Large Language Models_<br>
+Bangguo Yu, Hamidreza Kasaei, Ming Cao<br>
+arXiv, December 25, 2023<br>
+[PDF](http://arxiv.org/abs/2310.07937)
+
+_Learning Efficient Multi-Agent Cooperative Visual Exploration_<br>
+Chao Yu, Xinyi Yang, Jiaxuan Gao, Huazhong Yang, Yu Wang, Yi Wu<br>
+arXiv, November 22, 2022<br>
+[PDF](http://arxiv.org/abs/2110.05734)
+
+_Object Goal Navigation Using Goal-Oriented Semantic Exploration_<br>
+Devendra Singh Chaplot, Dhiraj Prakashchand Gandhi, Abhinav Gupta, Russ R Salakhutdinov<br>
+Advances in Neural Information Processing Systems, 33:4247–58, Curran Associates, Inc., 2020<br>
+[PDF](https://proceedings.neurips.cc/paper_files/paper/2020/hash/2c75cf2681788adaca63aa95ae028b22-Abstract.html)
+
+_GOAT: GO to Any Thing_<br>
+Matthew Chang, Theophile Gervet, Mukul Khanna, Sriram Yenamandra, Dhruv Shah, So Yeon Min, Kavit Shah, et al.<br>
+arXiv, November 10, 2023<br>
+[PDF](http://arxiv.org/abs/2311.06430)
+
+_Neural Topological SLAM for Visual Navigation_<br>
+Devendra Singh Chaplot, Ruslan Salakhutdinov, Abhinav Gupta, Saurabh Gupta<br>
+arXiv, May 28, 2020<br>
+[PDF](https://doi.org/10.48550/arXiv.2005.12256)
+
+_No RL, No Simulation: Learning to Navigate without Navigating_<br>
+Meera Hahn, Devendra Chaplot, Shubham Tulsiani, Mustafa Mukadam, James M. Rehg, Abhinav Gupta<br>
+arXiv, October 22, 2021<br>
+[PDF](https://doi.org/10.48550/arXiv.2110.09470)
+
+_Navigating to Objects Specified by Images_<br>
+Jacob Krantz, Theophile Gervet, Karmesh Yadav, Austin Wang, Chris Paxton, Roozbeh Mottaghi, Dhruv Batra, Jitendra Malik, Stefan Lee, Devendra Singh Chaplot<br>
+arXiv, April 3, 2023<br>
+[PDF](https://doi.org/10.48550/arXiv.2304.01192)
+
+_FILM: Following Instructions in Language with Modular Methods_<br>
+So Yeon Min, Devendra Singh Chaplot, Pradeep Ravikumar, Yonatan Bisk, Ruslan Salakhutdinov<br>
+arXiv, March 16, 2022<br>
+[PDF](https://doi.org/10.48550/arXiv.2110.07342)
+
+_PONI: Potential Functions for ObjectGoal Navigation with Interaction-Free Learning_<br>
+Santhosh Kumar Ramakrishnan, Devendra Singh Chaplot, Ziad Al-Halah, Jitendra Malik, Kristen Grauman<br>
+2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 18868–78, New Orleans, LA, USA: IEEE, 2022<br>
+[PDF](https://doi.org/10.1109/CVPR52688.2022.01832)
+
+_Point Cloud-Based Control Barrier Function Regression for Safe and Efficient Vision-Based Control_<br>
+Massimiliano de Sa, Prasanth Kotaru, Koushil Sreenath<br>
+arXiv, n.d.<br>
+[PDF](https://arxiv.org)
+
+_ViNG: Learning Open-World Navigation with Visual Goals_<br>
+Dhruv Shah, Benjamin Eysenbach, Gregory Kahn, Nicholas Rhinehart, Sergey Levine<br>
+2021 IEEE International Conference on Robotics and Automation (ICRA), 13215–22, 2021<br>
+[PDF](https://doi.org/10.1109/ICRA48506.2021.9561936)
+
+_LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action_<br>
+Dhruv Shah, Błażej Osiński, Brian Ichter, Sergey Levine<br>
+Proceedings of The 6th Conference on Robot Learning, 492–504, PMLR, 2023<br>
+[PDF](https://proceedings.mlr.press/v205/shah23b.html)
+
+_Enforcing Safety for Vision-Based Controllers via Control Barrier Functions and Neural Radiance Fields_<br>
+Mukun Tong, Charles Dawson, Chuchu Fan<br>
+arXiv, February 28, 2023<br>
+[PDF](http://arxiv.org/abs/2209.12266)
