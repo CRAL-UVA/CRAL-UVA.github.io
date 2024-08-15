@@ -4,7 +4,7 @@ permalink: /presentations/
 ---
 
 ### Fall 2024
-Professor Chandra will teach CS 2120 - Discrete Mathematics and Theory 1 (003) in Fall 2024. Course content syllabus will be updated here as well as on Canvas. Stay tuned !
+Professor Chandra will teach CS 2120 - Discrete Mathematics and Theory 1 (004) in Fall 2024. Course content syllabus will be updated here as well as on Canvas. Stay tuned !
 
 <!-- ### Upcoming lab meetings
 

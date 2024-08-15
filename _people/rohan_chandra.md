@@ -20,7 +20,10 @@ scholar:
 <i class="fa fa-envelope-o"></i> [`rohanchandra@virginia.edu`](mailto:rohanchandra@virginia.edu)
 
 **Office**<br>
-TBA
+Rice 207
+
+**Lab**<br>
+Rice 226
 
 [Rohan Chandra](https://engineering.virginia.edu/faculty/rohan-chandra) is an Assistant Professor in Computer Science at the University of Virginia and leads the CRΔL lab. From 2022 to 2024, he was a postdoctoral research fellow in Texas Robotics, advised by Dr. Joydeep Biswas and Dr. Peter Stone, at the University of Texas at Austin. His research focuses on algorithms and systems for enabling robots to navigate safely and efficiently among humans, like humans. Rohan obtained his M.S. and Ph.D. in 2018 and 2022 from the University of Maryland, College Park advised by Dr. Dinesh Manocha, and completed his B.Tech from the Delhi Technological University, New Delhi in 2016. His [doctoral thesis](https://drum.lib.umd.edu/handle/1903/29007) focused on autonomous driving in dense, heterogeneous, and unstructured traffic environments.
 

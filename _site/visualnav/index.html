@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--
+
+  _                    _  _                 _         _
+ | |                  | |(_)               | |       | |
+ | | __ ___   _ __  __| | _  _ __    __ _  | |  __ _ | |__
+ | |/ // _ \ | '__|/ _` || || '_ \  / _` | | | / _` || '_ \
+ |   <| (_) || |  | (_| || || | | || (_| | | || (_| || |_) |
+ |_|\_\\___/ |_|   \__,_||_||_| |_| \__, | |_| \__,_||_.__/
+                                     __/ |
+                                    |___/
+
+
+I love those that desire the impossible - Goethe.
+(if you get email from Konrad, you will see this quote)
+
+                boing         boing         boing
+      e-e           . - .         . - .         . - .
+     (\_/)\       '       `.   ,'       `.   ,'       .
+      `-'\ `--.___,         . .           . .          .
+         '\( ,_.-'
+            \\               "             "            a:f
+            ^'
+
+^ This is basically T-Rex jumping
+
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisualNav</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link href="http://localhost:8080/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:8080/js/zoom.js"></script>
+  <script src="http://localhost:8080/js/transition.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="shortcut icon" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:8080/images/logo/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:8080/images/logo/delta.png
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:8080/images/logo/delta.png">
+
+  <!-- open graph -->
+
+  
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:8080/visualnav/">
+  <meta property="og:title" content="VisualNav">
+  <meta property="og:site_name" content="Chandra Robot Δutonomy Lab at the University of Virginia">
+  <meta property="og:description" content="
+  
+  
+
+Visual Navigation
+
+
+  
+    
+      Image
+      Notes
+    
+  
+  
+    
+      Multi-Agent Embodied Visual Semantic Navigation with Scene Prior ..." />
+  <meta property="og:image" content="http://localhost:8080/images/logo/delta_7.png">
+
+</head>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//kordinglab.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<body id="page-top" style="padding-top: 6em;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand page-scroll' href='/'>
+              <span style='font-family:"Open Sans" font-weight:300'>Chandra Robot Δutonomy Lab</span>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                      <li><a class='name' href="/research">Research</a></li>
+                      
+                      <li><a class='name' href="/publication">publications</a></li>
+                      
+                      <li><a class='name' href="/people">team</a></li>
+                      
+                      <li><a class='name' href="/presentations">teaching</a></li>
+                      
+                    </ul>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>
+
+    <div class="container content page">
+  <!-- <h1 class="page-title">VisualNav</h1> -->
+  <!-- For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=). -->
+<!-- <hr> -->
+<h4>Visual Navigation</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://theophilegervet.github.io/assets/goat/system_architecture.png" alt="Multi-Agent Embodied Visual Semantic Navigation with Scene Prior Knowledge" width="500" /><br /><small><em>Multi-Agent Embodied Visual Semantic Navigation with Scene Prior Knowledge</em><br />Xinzhu Liu, Di Guo, Huaping Liu, Fuchun Sun<br />arXiv, September 20, 2021<br /><a href="http://arxiv.org/abs/2109.09531">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image2.png" alt="Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Large Language Models" width="500" /><br /><small><em>Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Large Language Models</em><br />Bangguo Yu, Hamidreza Kasaei, Ming Cao<br />arXiv, December 25, 2023<br /><a href="http://arxiv.org/abs/2310.07937">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image3.png" alt="Learning Efficient Multi-Agent Cooperative Visual Exploration" width="500" /><br /><small><em>Learning Efficient Multi-Agent Cooperative Visual Exploration</em><br />Chao Yu, Xinyi Yang, Jiaxuan Gao, Huazhong Yang, Yu Wang, Yi Wu<br />arXiv, November 22, 2022<br /><a href="http://arxiv.org/abs/2110.05734">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image4.png" alt="Object Goal Navigation Using Goal-Oriented Semantic Exploration" width="500" /><br /><small><em>Object Goal Navigation Using Goal-Oriented Semantic Exploration</em><br />Devendra Singh Chaplot, Dhiraj Prakashchand Gandhi, Abhinav Gupta, Russ R Salakhutdinov<br />Advances in Neural Information Processing Systems, 33:4247–58, Curran Associates, Inc., 2020<br /><a href="https://proceedings.neurips.cc/paper_files/paper/2020/hash/2c75cf2681788adaca63aa95ae028b22-Abstract.html">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image5.png" alt="GOAT: GO to Any Thing" width="500" /><br /><small><em>GOAT: GO to Any Thing</em><br />Matthew Chang, Theophile Gervet, Mukul Khanna, Sriram Yenamandra, Dhruv Shah, So Yeon Min, Kavit Shah, et al.<br />arXiv, November 10, 2023<br /><a href="http://arxiv.org/abs/2311.06430">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image6.png" alt="Neural Topological SLAM for Visual Navigation" width="500" /><br /><small><em>Neural Topological SLAM for Visual Navigation</em><br />Devendra Singh Chaplot, Ruslan Salakhutdinov, Abhinav Gupta, Saurabh Gupta<br />arXiv, May 28, 2020<br /><a href="https://doi.org/10.48550/arXiv.2005.12256">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image7.png" alt="No RL, No Simulation: Learning to Navigate without Navigating" width="500" /><br /><small><em>No RL, No Simulation: Learning to Navigate without Navigating</em><br />Meera Hahn, Devendra Chaplot, Shubham Tulsiani, Mustafa Mukadam, James M. Rehg, Abhinav Gupta<br />arXiv, October 22, 2021<br /><a href="https://doi.org/10.48550/arXiv.2110.09470">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image8.png" alt="Navigating to Objects Specified by Images" width="500" /><br /><small><em>Navigating to Objects Specified by Images</em><br />Jacob Krantz, Theophile Gervet, Karmesh Yadav, Austin Wang, Chris Paxton, Roozbeh Mottaghi, Dhruv Batra, Jitendra Malik, Stefan Lee, Devendra Singh Chaplot<br />arXiv, April 3, 2023<br /><a href="https://doi.org/10.48550/arXiv.2304.01192">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image9.png" alt="FILM: Following Instructions in Language with Modular Methods" width="500" /><br /><small><em>FILM: Following Instructions in Language with Modular Methods</em><br />So Yeon Min, Devendra Singh Chaplot, Pradeep Ravikumar, Yonatan Bisk, Ruslan Salakhutdinov<br />arXiv, March 16, 2022<br /><a href="https://doi.org/10.48550/arXiv.2110.07342">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image10.png" alt="PONI: Potential Functions for ObjectGoal Navigation with Interaction-Free Learning" width="500" /><br /><small><em>PONI: Potential Functions for ObjectGoal Navigation with Interaction-Free Learning</em><br />Santhosh Kumar Ramakrishnan, Devendra Singh Chaplot, Ziad Al-Halah, Jitendra Malik, Kristen Grauman<br />2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 18868–78, New Orleans, LA, USA: IEEE, 2022<br /><a href="https://doi.org/10.1109/CVPR52688.2022.01832">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image11.png" alt="Point Cloud-Based Control Barrier Function Regression for Safe and Efficient Vision-Based Control" width="500" /><br /><small><em>Point Cloud-Based Control Barrier Function Regression for Safe and Efficient Vision-Based Control</em><br />Massimiliano de Sa, Prasanth Kotaru, Koushil Sreenath<br />arXiv, n.d.<br /><a href="https://arxiv.org">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image12.png" alt="ViNG: Learning Open-World Navigation with Visual Goals" width="500" /><br /><small><em>ViNG: Learning Open-World Navigation with Visual Goals</em><br />Dhruv Shah, Benjamin Eysenbach, Gregory Kahn, Nicholas Rhinehart, Sergey Levine<br />2021 IEEE International Conference on Robotics and Automation (ICRA), 13215–22, 2021<br /><a href="https://doi.org/10.1109/ICRA48506.2021.9561936">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image13.png" alt="LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action" width="500" /><br /><small><em>LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action</em><br />Dhruv Shah, Błażej Osiński, Brian Ichter, Sergey Levine<br />Proceedings of The 6th Conference on Robot Learning, 492–504, PMLR, 2023<br /><a href="https://proceedings.mlr.press/v205/shah23b.html">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+    <tr>
+      <td><img src="https://example.com/image14.png" alt="Enforcing Safety for Vision-Based Controllers via Control Barrier Functions and Neural Radiance Fields" width="500" /><br /><small><em>Enforcing Safety for Vision-Based Controllers via Control Barrier Functions and Neural Radiance Fields</em><br />Mukun Tong, Charles Dawson, Chuchu Fan<br />arXiv, February 28, 2023<br /><a href="http://arxiv.org/abs/2209.12266">PDF</a></small></td>
+      <td>Sample Notes</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+    <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-34145995-1");
+    pageTracker._trackPageview();
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34145995-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34145995-1');
+    </script>
+
+</body>
+</html>

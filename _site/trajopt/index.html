@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--
+
+  _                    _  _                 _         _
+ | |                  | |(_)               | |       | |
+ | | __ ___   _ __  __| | _  _ __    __ _  | |  __ _ | |__
+ | |/ // _ \ | '__|/ _` || || '_ \  / _` | | | / _` || '_ \
+ |   <| (_) || |  | (_| || || | | || (_| | | || (_| || |_) |
+ |_|\_\\___/ |_|   \__,_||_||_| |_| \__, | |_| \__,_||_.__/
+                                     __/ |
+                                    |___/
+
+
+I love those that desire the impossible - Goethe.
+(if you get email from Konrad, you will see this quote)
+
+                boing         boing         boing
+      e-e           . - .         . - .         . - .
+     (\_/)\       '       `.   ,'       `.   ,'       .
+      `-'\ `--.___,         . .           . .          .
+         '\( ,_.-'
+            \\               "             "            a:f
+            ^'
+
+^ This is basically T-Rex jumping
+
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrajOpt</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link href="http://localhost:8080/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:8080/js/zoom.js"></script>
+  <script src="http://localhost:8080/js/transition.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="shortcut icon" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:8080/images/logo/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:8080/images/logo/delta.png
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:8080/images/logo/delta.png">
+
+  <!-- open graph -->
+
+  
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:8080/trajopt/">
+  <meta property="og:title" content="TrajOpt">
+  <meta property="og:site_name" content="Chandra Robot Δutonomy Lab at the University of Virginia">
+  <meta property="og:description" content="
+  
+  
+
+
+Multi-Agent Navigation
+
+Multi-Agent Pathfinding
+Distributed Multi-Agent Navigation Based on Reciprocal Collision Avoidance and Locally Con..." />
+  <meta property="og:image" content="http://localhost:8080/images/logo/delta_7.png">
+
+</head>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//kordinglab.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<body id="page-top" style="padding-top: 6em;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand page-scroll' href='/'>
+              <span style='font-family:"Open Sans" font-weight:300'>Chandra Robot Δutonomy Lab</span>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                      <li><a class='name' href="/research">Research</a></li>
+                      
+                      <li><a class='name' href="/publication">publications</a></li>
+                      
+                      <li><a class='name' href="/people">team</a></li>
+                      
+                      <li><a class='name' href="/presentations">teaching</a></li>
+                      
+                    </ul>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>
+
+    <div class="container content page">
+  <!-- <h1 class="page-title">TrajOpt</h1> -->
+  <!-- For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=). -->
+<!-- <hr> -->
+
+<h4>Multi-Agent Navigation</h4>
+
+<h5>Multi-Agent Pathfinding</h5>
+<p><em>Distributed Multi-Agent Navigation Based on Reciprocal Collision Avoidance and Locally Confined Multi-Agent Path Finding</em><br />
+Stepan Dergachev, Konstantin Yakovlev<br />
+arXiv, July 1, 2021<br />
+<a href="http://arxiv.org/abs/2107.00246">PDF</a></p>
+
+<p><em>Learn to Follow: Decentralized Lifelong Multi-Agent Pathfinding via Planning and Learning</em><br />
+Alexey Skrynnik, Anton Andreychuk, Maria Nesterova, Konstantin Yakovlev, Aleksandr Panov<br />
+Proceedings of the AAAI Conference on Artificial Intelligence 38, no. 16 (March 24, 2024): 17541–49<br />
+<a href="https://doi.org/10.1609/aaai.v38i16.29704">PDF</a></p>
+
+<h5>Multi-Agent Reinforcement Learning</h5>
+<p><em>Multi-Robot Cooperative Socially-Aware Navigation Using Multi-Agent Reinforcement Learning</em><br />
+Weizheng Wang, Le Mao, Ruiqi Wang, Byung-Cheol Min<br />
+arXiv, May 15, 2024<br />
+<a href="http://arxiv.org/abs/2309.15234">PDF</a></p>
+
+<h5>Trajectory Optimization</h5>
+<p><em>Deadlock Resolution and Recursive Feasibility in MPC-Based Multi-Robot Trajectory Generation</em><br />
+Yuda Chen, Meng Guo, Zhongkui Li<br />
+arXiv, April 9, 2024<br />
+<a href="https://doi.org/10.48550/arXiv.2202.06071">PDF</a></p>
+
+<p><em>Deadlock Resolution in Multi-Agent Systems Using Hierarchical Control</em><br />
+Kunal Garg, Sera Hamilton, Chuchu Fan<br />
+n.d.<br />
+<a href="https://arxiv.org">PDF</a></p>
+
+<p><em>Distributed Safe Navigation of Multi-Agent Systems Using Control Barrier Function-Based Controllers</em><br />
+Pol Mestres, Carlos Nieto-Granda, Jorge Cortés<br />
+IEEE Robotics and Automation Letters 9, no. 7 (July 2024): 6760–67<br />
+<a href="https://doi.org/10.1109/LRA.2024.3414268">PDF</a></p>
+
+<p><em>RLSS: Real-Time, Decentralized, Cooperative, Networkless Multi-Robot Trajectory Planning Using Linear Spatial Separations</em><br />
+Baskın Şenbaşlar, Wolfgang Hönig, Nora Ayanian<br />
+Autonomous Robots 47, no. 7 (October 1, 2023): 921–46<br />
+<a href="https://doi.org/10.1007/s10514-023-10104-w">PDF</a></p>
+
+<p><em>The Before, During, and After of Multi-Robot Deadlock</em><br />
+Accessed July 21, 2024<br />
+<a href="https://doi.org/10.1177/02783649221074718">PDF</a></p>
+
+<p><em>Safety Barrier Certificates for Collisions-Free Multirobot Systems</em><br />
+Li Wang, Aaron D. Ames, Magnus Egerstedt<br />
+IEEE Transactions on Robotics 33, no. 3 (June 2017): 661–74<br />
+<a href="https://doi.org/10.1109/TRO.2017.2659727">PDF</a></p>
+
+<p><em>Game-Theoretic Planning for Risk-Aware Interactive Agents</em><br />
+Mingyu Wang, Negar Mehr, Adrien Gaidon, Mac Schwager<br />
+2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 6998–7005, 2020<br />
+<a href="https://doi.org/10.1109/IROS45743.2020.9341137">PDF</a></p>
+
+<p><em>Fast, On-Line Collision Avoidance for Dynamic Vehicles Using Buffered Voronoi Cells</em><br />
+Dingjiang Zhou, Zijian Wang, Saptarshi Bandyopadhyay, Mac Schwager<br />
+IEEE Robotics and Automation Letters 2, no. 2 (April 2017): 1047–54<br />
+<a href="https://doi.org/10.1109/LRA.2017.2656241">PDF</a></p>
+
+<p><em>Decentralized Probabilistic Multi-Robot Collision Avoidance Using Buffered Uncertainty-Aware Voronoi Cells</em><br />
+Hai Zhu, Bruno Brito, Javier Alonso-Mora<br />
+arXiv, January 11, 2022<br />
+<a href="https://doi.org/10.48550/arXiv.2201.04012">PDF</a></p>
+
+<p><em>Learning Safe, Generalizable Perception-Based Hybrid Control With Certificates</em><br />
+Charles Dawson, Bethany Lowenkamp, Dylan Goff, Chuchu Fan<br />
+IEEE Robotics and Automation Letters 7, no. 2 (April 2022): 1904–11<br />
+<a href="https://doi.org/10.1109/LRA.2022.3141657">PDF</a></p>
+
+<p><em>Deadlock Resolution in Multi-Agent Systems Using Hierarchical Control</em><br />
+Kunal Garg, Sera Hamilton, Chuchu Fan<br />
+n.d.<br />
+<a href="https://arxiv.org">PDF</a></p>
+
+<p><em>Reactive Mission and Motion Planning with Deadlock Resolution Avoiding Dynamic Obstacles</em><br />
+Javier Alonso-Mora, Jonathan A. DeCastro, Vasumathi Raman, Daniela Rus, Hadas Kress-Gazit<br />
+Autonomous Robots 42, no. 4 (April 1, 2018): 801–24<br />
+<a href="https://doi.org/10.1007/s10514-017-9665-6">PDF</a></p>
+
+</div>
+
+
+    <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-34145995-1");
+    pageTracker._trackPageview();
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34145995-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34145995-1');
+    </script>
+
+</body>
+</html>
