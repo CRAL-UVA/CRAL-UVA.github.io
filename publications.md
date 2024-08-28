@@ -8,6 +8,17 @@ permalink: /publication/
 
 <h4>2024</h4>
 
+_Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes_<br>
+Chen Tang, Ben Abbatematteo, Jiaheng Hu, Rohan Chandra, Roberto Martín-Martín, Peter Stone<br>
+Annual Review of Control, Robotics, and Autonomous Systems, 2024<br>
+ [PDF](https://arxiv.org/abs/2306.16740)
+
+
+_Principles and guidelines for evaluating social robot navigation algorithms_<br>
+Anthony Francis, Claudia P{\'e}rez-d'Arpino, Chengshu Li, Fei Xia, Alexandre Alahi, Rachid Alami, Aniket Bera, Abhijat Biswas, Joydeep Biswas, Rohan Chandra, others<br>
+Transactions on Human-Robot Interaction, 2024<br>
+ [PDF](https://arxiv.org/abs/2306.16740)
+
  _Predicting Acute Pain Levels Implicitly from Vocal Features_<br>
 Jennifer Williams, Eike Schneiders, Henry Card, Tina Seabrooke, Beatrice Pakenham-Walsh, Tayyaba Azim, Lucy Valls-Reed, Ganesh Vigneswaran, John Robert Bautista, Rohan Chandra, Arya Farahi<br>
 INTERSPEECH, 2024<br>
@@ -49,11 +60,6 @@ _Meteor: A dense, heterogeneous, and unstructured traffic dataset with rare beha
 Rohan Chandra, Xijun Wang, Mridul Mahajan, Rahul Kala, Rishitha Palugulla, Chandrababu Naidu, Alok Jain, Dinesh Manocha<br>
 2023 IEEE International Conference on Robotics and Automation (ICRA), 2023<br>
  [PDF](https://ieeexplore.ieee.org/abstract/document/10161281/)
-
-_Principles and guidelines for evaluating social robot navigation algorithms_<br>
-Anthony Francis, Claudia P{\'e}rez-d'Arpino, Chengshu Li, Fei Xia, Alexandre Alahi, Rachid Alami, Aniket Bera, Abhijat Biswas, Joydeep Biswas, Rohan Chandra, others<br>
-arXiv preprint arXiv:2306.16740, 2023<br>
- [PDF](https://arxiv.org/abs/2306.16740)
 
 _Deadlock-free, Safe, and Decentralized Multi-Robot Navigation in Social Mini-Games via Discrete-Time Control Barrier Functions_<br>
 Rohan Chandra, Vrushabh Zinage, Efstathios Bakolas, Peter Stone, Joydeep Biswas<br>
