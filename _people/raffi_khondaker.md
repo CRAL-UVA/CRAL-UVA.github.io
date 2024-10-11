@@ -2,12 +2,12 @@
 name: Raffu (Raffi) Khondaker
 position: ug
 avatar: raffi.jpeg
-linkedin: https://www.linkedin.com/in/raffu-khondaker/
+LinkedIn: https://www.linkedin.com/in/raffu-khondaker/
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-_Undergraduate student, Computer Science, University of Virginia_<br>
+_Undergraduate student, Computer Science and Math, University of Virginia_<br>
 
 <i class="fa fa-envelope-o"></i> `rhm4nj@virginia.edu`
 
