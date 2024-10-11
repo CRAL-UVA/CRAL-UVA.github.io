@@ -1,7 +1,7 @@
 ---
 name: Kinglsey Kim
 position: ug
-avatar: 
+avatar: kingsley.jpg
 twitter:
 ---
 
