@@ -38,18 +38,18 @@ I love those that desire the impossible - Goethe.
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  <link href="http://localhost:8080/css/zoom.css" rel="stylesheet">
-  <script src="http://localhost:8080/js/zoom.js"></script>
-  <script src="http://localhost:8080/js/transition.js"></script>
+  <link href="http://localhost:4000/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:4000/js/zoom.js"></script>
+  <script src="http://localhost:4000/js/transition.js"></script>
 
   <link rel="stylesheet" href="/style.css">
   <!-- favicon -->
-  <link rel="shortcut icon" href="http://localhost:8080/images/logo/delta.png">
-  <link rel="shortcut icon" href="http://localhost:8080/images/logo/delta.png">
-  <link rel="apple-touch-icon-precomposed" href="http://localhost:8080/images/logo/apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:8080/images/logo/delta.png
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:8080/images/logo/delta.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:8080/images/logo/delta.png">
+  <link rel="shortcut icon" href="http://localhost:4000/images/logo/delta.png">
+  <link rel="shortcut icon" href="http://localhost:4000/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/logo/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/logo/delta.png
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/logo/delta.png">
 
   <!-- open graph -->
 
@@ -57,14 +57,16 @@ I love those that desire the impossible - Goethe.
   
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="http://localhost:8080/research/">
+  <meta property="og:url" content="http://localhost:4000/research/">
   <meta property="og:title" content="Research">
   <meta property="og:site_name" content="Chandra Robot Δutonomy Lab at the University of Virginia">
   <meta property="og:description" content="
   
   
-Our longstanding goal is for robots to navigate among humans, like humans. Think last mile delivery robots and service robots operating full..." />
-  <meta property="og:image" content="http://localhost:8080/images/logo/delta_7.png">
+ Towards Human-Like Mobility for Confident and Agile Mobile Service Robots in the Real World  
+
+The development of mobile service robots can..." />
+  <meta property="og:image" content="http://localhost:4000/images/logo/delta_7.png">
 
 </head>
 
@@ -131,28 +133,42 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container content page">
   <!-- <h1 class="page-title">Research</h1> -->
   <!-- ### About us -->
-<p>Our longstanding goal is for robots to navigate among humans, like humans. Think last mile delivery robots and service robots operating fully autonomously in public spaces like airports, restaurants, and hospitals. This includes developing algorithms and systems that can do planning-aware perception, that can reason about the behavior of humans using local information only, and that can plan trajectories that are not just provably safe, but also agile, smooth, and efficient.</p>
+<center> <h2>Towards Human-Like Mobility for Confident and Agile Mobile Service Robots in the Real World </h2> </center>
 
-<h3 id="research">Research</h3>
+<p>The development of mobile service robots can be divided into two distinct golden eras. First, the “Don’t Go There” era (1962–2010), where service robots were confined to cages, with any form of human-robot interaction strictly prohibited. Second, the “Get Out Of The Way” era (2011–2021), where the robots freed from their cages, yet humans were still advised to avoid any direct interaction with them. Today, we are entering a third era (2022–present), where advances in engineering and artificial intelligence (AI) have made it possible for robots to co-exist with humans. From on-road traffic to pedestrian sidewalks, from hospitals and airports to our homes, from warehouses to university campuses, these service robots have the potential to improve people’s everyday lives.</p>
+
+<p>Our longstanding goal is to unlock the full potential of mobile service robots in the real world so that they can perform tasks as efficiently as we can. We envision a new paradigm, which we call <em>Human-Like Mobility</em>, that enable robots to navigate in complex human environments, not just safely, but also confidently, gracefully, and in an agile manner.</p>
+
+<!-- ### Research -->
 
 <iframe width="360" height="180" src="https://www.youtube.com/embed/t4tkCCIGXRU?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=t4tkCCIGXRU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 <iframe width="360" height="180" src="https://www.youtube.com/embed/0Zjmm31b1fI?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=0Zjmm31b1fI" title="Rethinking Social Robot Navigation: Leveraging the Best of Two Worlds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
 <p><br /></p>
 
-<h4 id="agile-but-safe-navigation-in-complex-human-environments"><em>Agile, but safe</em> navigation in complex human environments</h4>
-<p>Humans are safe, but at the same time, move with grace and agility in order to be efficient and comfortable. For example, a more impatient individual will overtake a slow-moving group in front and squeeze through narrow gaps even if it means means light contact with other people or objects. Robots today sacrifice efficiency for safety, and cannot be fully deployed in complex human environments. <br /></p>
+<h4 id="confident-and-agile-but-safe-multi-robot-navigation-in-complex-human-environments"><em>Confident</em> and <em>Agile</em>, but <em>safe</em> Multi-Robot Navigation in Complex Human Environments</h4>
 
-<p>We work on developing multi-robot algorithms and systems with generalizability, liveness, agility, and safety guarantees in fully decentralized settings in unstructured environments. We routinely work in the sub-areas of optimal control and multi-agent reinforcement learning, and testing out our ideas both in simulation as well as on real physical robots.</p>
+<div style="display: flex; justify-content: center;">
+  <img src="https://maicbf.github.io/static/images/ours_trajectory_16_agents_empty_itr_06_fps_10_trailing_random.gif" width="400" />
+  <img src="https://maicbf.github.io/static/images/maze_2.gif" width="400" />
+</div>
+
+<p>Humans are safe, but at the same time, move confidently with grace and agility in order to be efficient and comfortable. For example, a more impatient individual will overtake a slow-moving group in front and squeeze through narrow gaps even if it means means light contact with other people or objects. Robots today sacrifice efficiency for safety, and cannot be fully deployed in complex human environments. <br /></p>
+
+<p>We work on developing multi-robot algorithms and systems that simultaneously give liveness, agility, and safety guarantees in fully decentralized settings in unstructured environments. We routinely work in the sub-areas of optimal control, machine learning, and reinforcement learning, and testing out our ideas both in simulation as well as on real physical robots.</p>
 
 <p><u>Some active projects are</u>:</p>
 <ol>
-  <li>Establishing theory and algorithms for combined safety and deadlock-free in multi-robot systems in social navigation scenarios using control barrier functions, dynamic game theory, and neural networks.</li>
-  <li>Multi-agent reinforcement learning and multi-agent imitation learning in social navigation.</li>
-  <li>Enforcing safety and liveness in visual navigation.</li>
+  <li><strong>Universal Non-Conservative Barrier Functions (UNCBFs)</strong>: Given as input local state-based observations or high-level camera/lidar observation, we develop a new type of CBFs to combine safety, agility, and liveness in a unified CBF. This CBF is then added as a filter to any off-the-shelf planner.</li>
+  <li><strong>Physics informed neural Social Mini-Game solvers</strong>: Currently, we assume a fixed dynamic model for which we design new controllers. But what if the dynamic model itself looks different in social navigation ? We use Physics-informed NNs to learn the dynamics model and then develop new controllers for them.</li>
+  <li><strong>Multi-agent RL</strong>: We will extend safe RL theory to incorporate safety and agility in RL.</li>
 </ol>
 
-<h4 id="next-generation-human-robot-interaction"><em>Next-Generation</em> Human-Robot Interaction</h4>
+<h4 id="next-gen-socially-compliant-multi-robot-navigation-in-complex-human-environments"><em>Next-Gen Socially Compliant</em> Multi-Robot Navigation in Complex Human Environments</h4>
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="https://1drv.ms/i/c/b47a1cc5860350e9/IQQnya-zvB-WT6Y5wfwbIhISAQfF0iXOSe876uB4irOkaV0?width=1024" width="600" height="300" />
+  <iframe src="https://myuva-my.sharepoint.com/personal/aar8xx_virginia_edu/_layouts/15/embed.aspx?UniqueId=f6e53a62-496d-4b5c-8673-cf3c7b37492e" width="200" height="200" frameborder="0" scrolling="no" allowfullscreen="" title="VLMVideo"></iframe>
+</div>
 
 <p>Recent advances in robot learning, large vision-language models, and transformer-based architectures have made it possible for robots to interact with humans via complex natural language instructions. We are leveraging these ideas with the goal of building a next-generation paradigm for human-robot interaction where humans can interact with robots seamlessly and perform complex tasks via mind and body gestures.</p>
 
@@ -160,18 +176,31 @@ s.setAttribute('data-timestamp', +new Date());
 
 <p><u>Some active projects are</u>:</p>
 <ol>
-  <li>Leveraging recent advances in vision-language-action models for human-robot interaction tasks.</li>
-  <li>Using vision-language models to negotiate and coordinate between multiple agents in social interactions.</li>
+  <li><strong>Implicit Reasoning via Trajectory Prediction</strong>: Given lidar pointcloud as input, we will do 3D object (maybe even pose) tracking and get the trajectories. Then, use transformer architecture networks to predict future trajectories and poses. An encoder-decoder network will take these predictions and the decoder will generate control inputs for the ego-agent.</li>
+  <li><strong>Explicit Reasoning via Cost Map learning</strong>: Use trajectory data to learn a social cost map over a geometric cost map that is provided by standard off the shelf planners like Move base. We will learn the cost map and the resulting planner in an end-to-end fashion</li>
+  <li><strong>Explicit Reasoning via Inverse Reinforcement Learning</strong>: Collect trajectory data, then use IRL to learn reward functions of all agents in scene. We will compute a control input by maximizing the reward function.</li>
+  <li><strong>Explicit Reasoning via Analytical Reasoning</strong>: Given the trajectory input, use closed form solutions to generate behavior labels (discrete or continuous) that can then be supplied to a high level planner followed by a low level planner.</li>
+  <li><strong>Explicit Reasoning via Vision-Language Models</strong>: VLMs will take in the camera, lidar and prompt as input, and output a high level text-based plan for what the robot should do in the current social context. This high level plan is then followed by the low level motion controller.</li>
 </ol>
 
 <h4 id="autonomous-driving-in-dense-heterogeneous-and-chaotic-environments">Autonomous Driving <em>in Dense, Heterogeneous, and Chaotic Environments</em></h4>
+
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center; margin-right: 10px;">
+    <iframe src="https://myuva-my.sharepoint.com/personal/aar8xx_virginia_edu/_layouts/15/embed.aspx?UniqueId=d1ae93c2-b86f-458f-a8ea-40a6e7b30dcc" width="300" height="300" frameborder="0" scrolling="no" allowfullscreen="" title="traffic-baseline"></iframe>
+    <p>Baseline Traffic Model</p>
+  </div>
+  <div style="text-align: center;">
+    <iframe src="https://myuva-my.sharepoint.com/personal/aar8xx_virginia_edu/_layouts/15/embed.aspx?UniqueId=eb856f66-1ffc-4957-b582-2bee4d26de0c" width="300" height="300" frameborder="0" scrolling="no" allowfullscreen="" title="traffic-ours"></iframe>
+    <p>Our Traffic Model</p>
+  </div>
+</div>
 
 <p>Over the past decade, we have made immense progress in autonomous driving in developed nations like U.S.A, Europe, UK, etc. But we are still far from achieving the same success in developing nations like India, where the traffic is far denser, far more heterogeneous, and far more chaotic. Our research focuses on developing autonomous driving and ADAS for traffic in these regions.</p>
 
 <p><u>Some active projects are</u></p>
 <ol>
-  <li>Developing new dynamics systems and models for safe and agile agents in highly dense, heterogeneous, chaotic, and lane-free traffic.</li>
-  <li>Safe and agile autonomous driving in highly dense, heterogeneous, and unstructured traffic.</li>
+  <li><strong>Off-road autonomous racing</strong></li>
 </ol>
 
 </div>
