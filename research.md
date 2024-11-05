@@ -16,7 +16,7 @@ Our longstanding goal is to unlock the full potential of mobile service robots i
 
 <br>
 
-#### *Confident* and *Agile*, but *safe* Multi-Robot Navigation in Complex Human Environments
+#### *Confident* and *Agile*, but *Safe* Multi-Robot Navigation in Complex Human Environments
 
 <div style="display: flex; justify-content: center;">
   <img src="https://maicbf.github.io/static/images/ours_trajectory_16_agents_empty_itr_06_fps_10_trailing_random.gif" width="400"/>
@@ -29,14 +29,14 @@ Humans are safe, but at the same time, move confidently with grace and agility i
 We work on developing multi-robot algorithms and systems that simultaneously give liveness, agility, and safety guarantees in fully decentralized settings in unstructured environments. We routinely work in the sub-areas of optimal control, machine learning, and reinforcement learning, and testing out our ideas both in simulation as well as on real physical robots.
 
 <u>Some active projects are</u>:
-1. **Universal Non-Conservative Barrier Functions (UNCBFs)**: Given as input local state-based observations or high-level camera/lidar observation, we develop a new type of CBFs to combine safety, agility, and liveness in a unified CBF. This CBF is then added as a filter to any off-the-shelf planner.
+1. **Non-Conservative Barrier Functions (NCBFs)**: Given as input local state-based observations or high-level camera/lidar observation, we develop a new type of CBFs to combine safety, agility, and liveness in a unified CBF. This CBF is then added as a filter to any off-the-shelf planner.
 2.	**Physics informed neural Social Mini-Game solvers**: Currently, we assume a fixed dynamic model for which we design new controllers. But what if the dynamic model itself looks different in social navigation ? We use Physics-informed NNs to learn the dynamics model and then develop new controllers for them.
 3.	**Multi-agent RL**: We will extend safe RL theory to incorporate safety and agility in RL.
 
 
 #### *Next-Gen Socially Compliant* Multi-Robot Navigation in Complex Human Environments
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="https://1drv.ms/i/c/b47a1cc5860350e9/IQQnya-zvB-WT6Y5wfwbIhISAQfF0iXOSe876uB4irOkaV0?width=1024" width="600" height="300"/>
+<iframe src="https://myuva-my.sharepoint.com/personal/aar8xx_virginia_edu/_layouts/15/embed.aspx?UniqueId=c7857167-ecee-4acd-8902-6faab24f6b7c" width="600" height="300" frameborder="0" scrolling="no" allowfullscreen title="vlmreasoning"></iframe>
   <iframe src="https://myuva-my.sharepoint.com/personal/aar8xx_virginia_edu/_layouts/15/embed.aspx?UniqueId=f6e53a62-496d-4b5c-8673-cf3c7b37492e" width="200" height="200" frameborder="0" scrolling="no" allowfullscreen title="VLMVideo"></iframe>
 </div>
 
