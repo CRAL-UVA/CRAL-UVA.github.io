@@ -1,10 +1,46 @@
 ---
-title: Reference
+title: Teaching
 permalink: /presentations/
 ---
 
 ### Fall 2024
-Professor Chandra will teach CS 2120 - Discrete Mathematics and Theory 1 (004) in Fall 2024. Course content syllabus will be updated here as well as on Canvas. Stay tuned !
+Professor Chandra will teach CS 2120 - Discrete Mathematics and Theory 1 (004) in Fall 2024.
+
+## Course Schedule
+
+| Date       | Lecture #  | Day         | Topic                              |
+|------------|------------|-------------|------------------------------------|
+| Aug 28 2024 | Lecture 1  | Wednesday   | Intro + logic                      |
+| Sep 2 2024  | Lecture 2  | Monday      | logic                              |
+| Sep 4 2024  | Lecture 3  | Wednesday   | reasoning + Circuits               |
+| Sep 9 2024  | Lecture 4  | Monday      | **HW1 Due** - sets                 |
+| Sep 11 2024 | Lecture 5  | Wednesday   | quantifiers                        |
+| Sep 16 2024 | Lecture 6  | Monday      | **HW 2 Due** - quantifiers         |
+| Sep 18 2024 | Lecture 7  | Wednesday   | proofs                             |
+| Sep 23 2024 | Lecture 8  | Monday      | **HW 3 Due** - proofs              |
+| Sep 25 2024 | Lecture 9  | Wednesday   | proofs                             |
+| Sep 30 2024 |            | Monday      | Midterm 1                          |
+| Oct 2 2024  | Lecture 10 | Wednesday   | proofs                             |
+| Oct 7 2024  | Lecture 11 | Monday      | **HW 4 Due** - proofs              |
+| Oct 9 2024  | Lecture 12 | Wednesday   | functions + relations              |
+| Oct 14 2024 |            | Monday      | Fall Reading                       |
+| Oct 16 2024 | Lecture 13 | Wednesday   | number bases (Kallie)              |
+| Oct 21 2024 | Lecture 14 | Monday      | **HW 5 Due** - functions + relations |
+| Oct 23 2024 | Lecture 15 | Wednesday   | sequences                          |
+| Oct 28 2024 | Lecture 16 | Monday      | **HW 6 Due** - Induction           |
+| Oct 30 2024 | Lecture 17 | Wednesday   | Induction                          |
+| Nov 4 2024  | Lecture 18 | Monday      | Induction/F&R - review session     |
+| Nov 6 2024  |            | Wednesday   | Midterm 2                          |
+| Nov 11 2024 | Lecture 19 | Monday      | **HW 7 Due** - Induction           |
+| Nov 13 2024 | Lecture 20 | Wednesday   | Induction                          |
+| Nov 18 2024 | Lecture 21 | Monday      | P and C                            |
+| Nov 20 2024 | Lecture 22 | Wednesday   | P and C                            |
+| Nov 25 2024 | Lecture 23 | Monday      | **HW 8 Due** - Pigeonhole Principle |
+| Nov 27 2024 |            | Wednesday   | Thanksgiving                       |
+| Dec 2 2024  | Lecture 24 | Monday      | TBD                                |
+| Dec 4 2024  | Lecture 25 | Wednesday   | TBD                                |
+
+---
 
 <!-- ### Upcoming lab meetings
 
