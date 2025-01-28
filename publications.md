@@ -6,6 +6,12 @@ permalink: /publication/
 <!-- For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=). -->
 <!-- <hr> -->
 
+<h4>2025</h4>
+_Decentralized Safe and Scalable Multi-Agent Control under Limited Actuation_<br>
+Vrushabh Zinage, Abhishek Jha, Rohan Chandra, Efstathios Bakolas<br>
+2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025<br>
+ [Project](https://maicbf.github.io/)
+
 <h4>2024</h4>
 
 _Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes_<br>
