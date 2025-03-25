@@ -7,6 +7,17 @@ permalink: /publication/
 <!-- <hr> -->
 
 <h4>2025</h4>
+
+_LiveNet: Robust, Minimally Invasive Multi-Robot Control for Safe and Live Navigation in Constrained Environments_<br>
+Srikar Gouru, Siddharth Lakkoju, Rohan Chandra, others<br>
+7th Annual Learning for Dynamics & Control Conference (L4DC), 2025<br>
+ [PDF](https://livenet-uva.github.io/)
+
+_Principles and guidelines for evaluating social robot navigation algorithms_<br>
+Anthony Francis, Claudia P{\'e}rez-d'Arpino, Chengshu Li, Fei Xia, Alexandre Alahi, Rachid Alami, Aniket Bera, Abhijat Biswas, Joydeep Biswas, Rohan Chandra, others<br>
+Transactions on Human-Robot Interaction (T-HRI), 2025<br>
+ [PDF](https://dl.acm.org/doi/full/10.1145/3700599)
+
 _Decentralized Safe and Scalable Multi-Agent Control under Limited Actuation_<br>
 Vrushabh Zinage, Abhishek Jha, Rohan Chandra, Efstathios Bakolas<br>
 2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025<br>

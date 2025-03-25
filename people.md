@@ -4,7 +4,7 @@ permalink: /people/
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni|ug" | split: "|" %}
+{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|ug" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -30,12 +30,9 @@ permalink: /people/
 <h3>Student Collaborators</h3>
  {% elsif role == 'ug' %}
 <h3>Undergraduate Students</h3>
- {% elsif role == 'alumni' %}
-<h3>Alumni</h3>
 {% endif %}
 </div>
 
-{% if role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -55,18 +52,25 @@ permalink: /people/
 </div>
 <hr>
 
-{% else %}
-
-<h3>Alumni</h3>
-<br>
-
-| Who are they | When were they here | Where they went |
-| :------------- |:-------------| :-----------|
-| [Tianrui Guan](https://tianruiguan.phd/) | M.S. (2019-2020) | Ph.D., University of Maryland, College Park |
-
-
-{% endif %}
 {% endfor %}
+
+<!-- Alumni Section After All Other Roles -->
+{% assign alumni = people_sorted | where: 'position', 'alumni' %}
+{% if alumni.size > 0 %}
+
+<!-- <div class="pos_header"> -->
+<h3>Alumni</h3>
+<!-- </div> -->
+
+
+| Who are they | When were they here | Where they went | Publications |
+| :------------- |:-------------| :-----------|
+| [Tianrui Guan](https://tianruiguan.phd/) | M.S. (2019-2020) | Ph.D., University of Maryland, College Park | RA-L/IROS 2020 |
+| [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) | UG (2024) | Space X | L4DC 2025|
+
+<!-- Add more rows as needed -->
+{% endif %}
+<hr>
 
 ### Active Collaborators
 

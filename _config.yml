@@ -69,3 +69,7 @@ collections:
   people:
     output: true
     permalink: /people/:title/index.html
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+

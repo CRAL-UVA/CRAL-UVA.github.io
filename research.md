@@ -4,7 +4,7 @@ permalink: /research/
 ---
 
 <!-- ### About us -->
-<center> <h2>Towards Human-Like Mobility for Confident and Agile Mobile Service Robots in the Real World </h2> </center>
+<center> <h2>Towards Human-Like Mobility for Confident and Agile Mobile Robots in the Real World </h2> </center>
 
 The development of mobile service robots can be divided into two distinct golden eras. First, the "Don't Go There" era (1962–2010), where service robots were confined to cages, with any form of human-robot interaction strictly prohibited. Second, the "Get Out Of The Way" era (2011–2021), where the robots freed from their cages, yet humans were still advised to avoid any direct interaction with them. Today, we are entering a third era (2022–present), where advances in engineering and artificial intelligence (AI) have made it possible for robots to co-exist with humans. From on-road traffic to pedestrian sidewalks, from hospitals and airports to our homes, from warehouses to university campuses, these service robots have the potential to improve people's everyday lives.
 

@@ -1,6 +1,6 @@
 ---
 name: Siddharth Lakkoju
-position: ug
+position: alumni
 avatar: lakkoju.jpg
 twitter:
 ---
