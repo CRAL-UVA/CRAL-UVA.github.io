@@ -9,7 +9,7 @@ permalink: /publication/
 <h4>2025</h4>
 
 _LiveNet: Robust, Minimally Invasive Multi-Robot Control for Safe and Live Navigation in Constrained Environments_<br>
-Srikar Gouru, Siddharth Lakkoju, Rohan Chandra, others<br>
+Srikar Gouru, Siddharth Lakkoju, Rohan Chandra<br>
 7th Annual Learning for Dynamics & Control Conference (L4DC), 2025<br>
  [PDF](https://livenet-uva.github.io/)
 
@@ -20,7 +20,7 @@ Transactions on Human-Robot Interaction (T-HRI), 2025<br>
 
 _Decentralized Safe and Scalable Multi-Agent Control under Limited Actuation_<br>
 Vrushabh Zinage, Abhishek Jha, Rohan Chandra, Efstathios Bakolas<br>
-2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025<br>
+2025 IEEE International Conference on Robotics and Automation (ICRA), 2025<br>
  [Project](https://maicbf.github.io/)
 
 <h4>2024</h4>
@@ -28,12 +28,6 @@ Vrushabh Zinage, Abhishek Jha, Rohan Chandra, Efstathios Bakolas<br>
 _Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes_<br>
 Chen Tang, Ben Abbatematteo, Jiaheng Hu, Rohan Chandra, Roberto Martín-Martín, Peter Stone<br>
 Annual Review of Control, Robotics, and Autonomous Systems, 2024<br>
- [PDF](https://arxiv.org/abs/2306.16740)
-
-
-_Principles and guidelines for evaluating social robot navigation algorithms_<br>
-Anthony Francis, Claudia P{\'e}rez-d'Arpino, Chengshu Li, Fei Xia, Alexandre Alahi, Rachid Alami, Aniket Bera, Abhijat Biswas, Joydeep Biswas, Rohan Chandra, others<br>
-Transactions on Human-Robot Interaction, 2024<br>
  [PDF](https://arxiv.org/abs/2306.16740)
 
  _Predicting Acute Pain Levels Implicitly from Vocal Features_<br>
