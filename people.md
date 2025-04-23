@@ -65,8 +65,8 @@ permalink: /people/
 
 | Who are they | When were they here | Where they went | Publications |
 | :------------- |:-------------| :-----------|
-| [Tianrui Guan](https://tianruiguan.phd/) | M.S. (2019-2020) | Ph.D., University of Maryland, College Park | RA-L/IROS 2020 |
 | [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) | UG (2024) | Space X | L4DC 2025|
+| [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | UG (2025) | MS at CMU | L4DC 2025|
 
 <!-- Add more rows as needed -->
 {% endif %}
