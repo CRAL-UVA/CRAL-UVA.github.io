@@ -8,6 +8,11 @@ permalink: /publication/
 
 <h4>2025</h4>
 
+_Deadlock-free, Safe, and Decentralized Multi-Robot Navigation in Social Mini-Games via Discrete-Time Control Barrier Functions_<br>
+Rohan Chandra, Vrushabh Zinage, Efstathios Bakolas, Peter Stone, Joydeep Biswas<br>
+Autonomous Robots, 2025<br>
+ [PDF](https://link.springer.com/content/pdf/10.1007/s10514-025-10194-8.pdf)
+
 _LiveNet: Robust, Minimally Invasive Multi-Robot Control for Safe and Live Navigation in Constrained Environments_<br>
 Srikar Gouru, Siddharth Lakkoju, Rohan Chandra<br>
 7th Annual Learning for Dynamics & Control Conference (L4DC), 2025<br>
@@ -71,11 +76,6 @@ _Meteor: A dense, heterogeneous, and unstructured traffic dataset with rare beha
 Rohan Chandra, Xijun Wang, Mridul Mahajan, Rahul Kala, Rishitha Palugulla, Chandrababu Naidu, Alok Jain, Dinesh Manocha<br>
 2023 IEEE International Conference on Robotics and Automation (ICRA), 2023<br>
  [PDF](https://ieeexplore.ieee.org/abstract/document/10161281/)
-
-_Deadlock-free, Safe, and Decentralized Multi-Robot Navigation in Social Mini-Games via Discrete-Time Control Barrier Functions_<br>
-Rohan Chandra, Vrushabh Zinage, Efstathios Bakolas, Peter Stone, Joydeep Biswas<br>
-arXiv preprint arXiv:2308.10966, 2023<br>
- [PDF](https://arxiv.org/abs/2306.16740)
 
 _Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning_<br>
 Xiyang Wu, Rohan Chandra, Tianrui Guan, Amrit Bedi, Dinesh Manocha<br>
