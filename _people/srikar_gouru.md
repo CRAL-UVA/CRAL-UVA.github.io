@@ -1,6 +1,6 @@
 ---
 name: Srikar Gouru
-position: ug
+position: alumni
 avatar: gouru.jpg
 twitter:
 ---

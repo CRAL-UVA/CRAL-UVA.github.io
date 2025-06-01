@@ -67,6 +67,7 @@ permalink: /people/
 | :------------- |:-------------| :-----------|
 | [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) | UG (2024) | Space X | L4DC 2025|
 | [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | UG (2025) | MS at CMU | L4DC 2025|
+| [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) | UG (2025) | TBD | TBD |
 
 <!-- Add more rows as needed -->
 {% endif %}

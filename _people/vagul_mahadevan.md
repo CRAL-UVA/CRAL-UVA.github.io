@@ -1,6 +1,6 @@
 ---
 name: Vagul Mahadevan
-position: ug
+position: alumni
 avatar: mahadevan.jpg
 twitter:
 ---
