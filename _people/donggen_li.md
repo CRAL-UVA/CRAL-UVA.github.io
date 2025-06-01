@@ -1,7 +1,7 @@
 ---
 name: Donggen Li
 position: gradstudent
-avatar: 
+avatar: donggen.JPG
 twitter:
 ---
 
