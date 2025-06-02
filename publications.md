@@ -22,7 +22,7 @@ Autonomous Robots, 2025<br>
 _LiveNet: Robust, Minimally Invasive Multi-Robot Control for Safe and Live Navigation in Constrained Environments_<br>
 Srikar Gouru, Siddharth Lakkoju, Rohan Chandra<br>
 7th Annual Learning for Dynamics & Control Conference (L4DC), 2025<br>
- [PDF](https://livenet-uva.github.io/)
+ [PDF](https://livenet-uva.github.io/), [Project](https://livenet-uva.github.io/)
 
 _Principles and guidelines for evaluating social robot navigation algorithms_<br>
 Anthony Francis, Claudia P{\'e}rez-d'Arpino, Chengshu Li, Fei Xia, Alexandre Alahi, Rachid Alami, Aniket Bera, Abhijat Biswas, Joydeep Biswas, Rohan Chandra, others<br>
