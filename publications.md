@@ -8,6 +8,12 @@ permalink: /publication/
 
 <h4>2025</h4>
 
+
+_Towards Large Language Models that Benefit for All: Benchmarking Group Fairness in Reward Models_<br>
+Kefan Song, Jin Yao, Runnan Jiang, Rohan Chandra, Shangtong Zhang<br>
+Reinforcement Learning Conference, 2025<br>
+ [PDF](https://arxiv.org/pdf/2503.07806?)
+
 _Deadlock-free, Safe, and Decentralized Multi-Robot Navigation in Social Mini-Games via Discrete-Time Control Barrier Functions_<br>
 Rohan Chandra, Vrushabh Zinage, Efstathios Bakolas, Peter Stone, Joydeep Biswas<br>
 Autonomous Robots, 2025<br>
