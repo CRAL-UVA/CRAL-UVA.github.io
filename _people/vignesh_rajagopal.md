@@ -1,6 +1,6 @@
 ---
 name: Vignesh Rajagopal
-position: Grad student
+position: gradstudent
 avatar: rajagopal.jpg
 linkedin: vigneshr07
 scholar:
