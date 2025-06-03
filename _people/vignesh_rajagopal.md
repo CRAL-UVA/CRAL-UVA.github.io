@@ -21,6 +21,7 @@ scholar:
 
 **Office**<br>
 Rice 226
-[Vignesh Rajagopal] is a First-year Ph.D. Student in Computer Science at the University of Virginia. His research focuses on multi-robot agile navigation with smooth drift and cohesive movement, grounded in control theory and adaptable to both LiDAR and non-visual sensory inputs.
+
+Vignesh Rajagopal is a First-year Ph.D. Student in Computer Science at the University of Virginia. His research focuses on multi-robot agile navigation with smooth drift and cohesive movement, grounded in control theory and adaptable to both LiDAR and non-visual sensory inputs.
 
 Vignesh Rajagopal holds a Master’s degree in Robotics from the University of Maryland and a Bachelor’s degree in Mechanical Engineering from Rajalakshmi Institute of Technology in India. Prior to beginning his Ph.D. studies, he worked as a Research cum Faculty Assistant at the GAMMA lab, contributing primarily to the perception systems of robotic platforms. He also spent over a year as a Research Engineer at IIT Madras, where he developed mechanical design solutions for complex engineering challenges within a startup environment.
