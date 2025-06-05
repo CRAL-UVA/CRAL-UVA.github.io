@@ -1,7 +1,7 @@
 ---
 name: Ben Kessler
 position: ug
-avatar: 
+avatar: Kessler.jpg
 twitter:
 ---
 
