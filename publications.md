@@ -7,7 +7,10 @@ permalink: /publication/
 <!-- <hr> -->
 
 <h4>2025</h4>
-
+_Multi-Agent Inverse Reinforcement Learning in Real World Unstructured Pedestrian Crowds_<br>
+Rohan Chandra, Haresh Karnan, Negar Mehr, Peter Stone, Joydeep Biswas<br>
+IROS, 2025<br>
+[PDF](https://arxiv.org/pdf/2405.16439), [Project]( https://mairl-uva.github.io/)
 
 _Towards Large Language Models that Benefit for All: Benchmarking Group Fairness in Reward Models_<br>
 Kefan Song, Jin Yao, Runnan Jiang, Rohan Chandra, Shangtong Zhang<br>
@@ -65,12 +68,6 @@ _GAMEOPT+: Improving Fuel Efficiency in Unregulated Heterogeneous Traffic Inters
 Nilesh Suriyarachchi, Rohan Chandra, Arya Anantula, John S Baras, Dinesh Manocha<br>
 arXiv preprint arXiv:2405.16430, 2024<br>
  [PDF](https://arxiv.org/pdf/2405.16430)
-
-_Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds_<br>
-Rohan Chandra, Haresh Karnan, Negar Mehr, Peter Stone, Joydeep Biswas<br>
-arXiv preprint arXiv:2405.16439, 2024<br>
- [PDF](https://arxiv.org/pdf/2405.16439)
-
 
 <h4>2023</h4>
 _Socialmapf: Optimal and efficient multi-agent path finding with strategic agents for social navigation_<br>
