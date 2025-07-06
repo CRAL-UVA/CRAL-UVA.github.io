@@ -1,7 +1,7 @@
 ---
 name: Aneesh Chavan
 position: gradstudent
-avatar: chavan.jpeg
+avatar: chavan.jpg
 twitter:
 ---
 
