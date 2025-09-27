@@ -5,7 +5,7 @@ permalink: /presentations/
 
 ### Teaching by Semester
 
-{% assign semesters = site.teaching | sort: 'semester' | reverse %}
+{% assign semesters = site.teaching | sort: 'semester_key' | reverse %}
 
 <ul>
   {% for course in semesters %}

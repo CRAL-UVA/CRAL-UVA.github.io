@@ -22,6 +22,20 @@ permalink: /publication/
 <div id="publicationsList">
 
 <h4>2025</h4>
+<div class="publication-item" data-year="2025" data-authors="Zixuan Xie, Xinyu Liu, Rohan Chandra, Shangtong Zhang " data-venue="NeurIPS">
+<p class="title">Finite Sample Analysis of Linear Temporal Difference Learning with Arbitrary Features</p>
+<p class="authors">Zixuan Xie, Xinyu Liu, Rohan Chandra, Shangtong Zhang</p>
+<p class="venue">NeurIPS, 2025</p>
+<p class="links"><a href="https://openreview.net/pdf?id=3lVBn7U07P">PDF</a></p>
+</div>
+
+<div class="publication-item" data-year="2025" data-authors="Jiuqi Wang, Rohan Chandra, Shangtong Zhang" data-venue="NeurIPS">
+<p class="title">Towards Provable Emergence of In-Context Reinforcement Learning</p>
+<p class="authors">Jiuqi Wang, Rohan Chandra, Shangtong Zhang</p>
+<p class="venue">NeurIPS, 2025</p>
+<p class="links"><a href="https://openreview.net/pdf?id=bdFJbP7542">PDF</a></p>
+</div>
+
 <div class="publication-item" data-year="2025" data-authors="Rohan Chandra, Haresh Karnan, Negar Mehr, Peter Stone, Joydeep Biswas" data-venue="IROS">
 <p class="title">Multi-Agent Inverse Reinforcement Learning in Real World Unstructured Pedestrian Crowds</p>
 <p class="authors">Rohan Chandra, Haresh Karnan, Negar Mehr, Peter Stone, Joydeep Biswas</p>
