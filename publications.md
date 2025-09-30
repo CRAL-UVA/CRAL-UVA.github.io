@@ -22,6 +22,21 @@ permalink: /publication/
 <div id="publicationsList">
 
 <h4>2025</h4>
+
+<div class="publication-item" data-year="2025" data-authors="Vagul Mahadevan, Shangtong Zhang, Rohan Chandra" data-venue="MRS">
+<p class="title">GameChat: Multi-LLM Dialogue for Safe, Agile, and Socially Optimal Multi-Agent Navigation in Constrained Environments</p>
+<p class="authors">Vagul Mahadevan, Shangtong Zhang, Rohan Chandra</p>
+<p class="venue">IEEE MRS, 2025</p>
+<p class="links"><a href="https://arxiv.org/pdf/2503.12333">PDF</a>, <a href="https://gamechat-uva.github.io/">Project</a></p>
+</div>
+
+<div class="publication-item" data-year="2025" data-authors="Nilesh Suriyarachchi, Rohan Chandra, Arya Anantula, John S Baras, Dinesh Manocha" data-venue="MRS">
+<p class="title">GAMEOPT+: Improving Fuel Efficiency in Unregulated Heterogeneous Traffic Intersections via Optimal Multi-agent Cooperative Control</p>
+<p class="authors">Nilesh Suriyarachchi, Rohan Chandra, Arya Anantula, John S Baras, Dinesh Manocha</p>
+<p class="venue">IEEE MRS, 2025</p>
+<p class="links"><a href="https://arxiv.org/pdf/2405.16430">PDF</a></p>
+</div>
+
 <div class="publication-item" data-year="2025" data-authors="Zixuan Xie, Xinyu Liu, Rohan Chandra, Shangtong Zhang " data-venue="NeurIPS">
 <p class="title">Finite Sample Analysis of Linear Temporal Difference Learning with Arbitrary Features</p>
 <p class="authors">Zixuan Xie, Xinyu Liu, Rohan Chandra, Shangtong Zhang</p>
@@ -112,13 +127,6 @@ permalink: /publication/
 <p class="authors">Chirag Parikh, Ravi Shankar Mishra, Rohan Chandra, Ravi Kiran Sarvadevabhatla</p>
 <p class="venue">arXiv preprint arXiv:2405.05354, 2024</p>
 <p class="links"><a href="https://arxiv.org/pdf/2405.05354">PDF</a></p>
-</div>
-
-<div class="publication-item" data-year="2024" data-authors="Nilesh Suriyarachchi, Rohan Chandra, Arya Anantula, John S Baras, Dinesh Manocha" data-venue="arXiv">
-<p class="title">GAMEOPT+: Improving Fuel Efficiency in Unregulated Heterogeneous Traffic Intersections via Optimal Multi-agent Cooperative Control</p>
-<p class="authors">Nilesh Suriyarachchi, Rohan Chandra, Arya Anantula, John S Baras, Dinesh Manocha</p>
-<p class="venue">arXiv preprint arXiv:2405.16430, 2024</p>
-<p class="links"><a href="https://arxiv.org/pdf/2405.16430">PDF</a></p>
 </div>
 
 <h4>2023</h4>

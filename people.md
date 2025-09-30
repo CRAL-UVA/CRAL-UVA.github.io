@@ -67,7 +67,7 @@ permalink: /people/
 | :------------- |:-------------| :-----------|
 | [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) | UG (2024) | Space X | L4DC 2025|
 | [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | UG (2025) | MS at CMU | L4DC 2025|
-| [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) | UG (2025) | TBD | IROS 2025 (under review) |
+| [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) | UG (2025) | Metron | MRS 2025|
 
 <!-- Add more rows as needed -->
 {% endif %}
@@ -77,14 +77,13 @@ permalink: /people/
 
 Here are some cool people in fields that interest us. **note:** This list is in no way complete. We have a lot of collaborators -- if you've collaborated with us and want a link here, let us know!
 
-**IIIT Hyderabad:**
-- [Ravi Kiran Sarvadevabhatla - Dept of Computer Science](https://ravika.github.io/)
+**UVA:**
+- [Shangtong Zhang - Dept of Computer Science](https://shangtongzhang.github.io/)
+- [Zezhou Cheng - Dept of Computer Science](https://sites.google.com/site/zezhoucheng/)
+- [Jonathan L. Goodall - Dept of Civil and Environmental Engineering](https://engineering.virginia.edu/faculty/jonathan-l-goodall)
 
-**University of Maryland, College Park:**
-- [Dinesh Manocha - Dept of Computer Science](https://www.cs.umd.edu/~dm/)
+**GMU:**
+- [Xuesu Xiao - Dept of Computer Science](https://cs.gmu.edu/~xiao/)
 
-**University of Texas at Austin:**
-- [Joydeep Biswas - Dept of Computer Science](https://www.joydeepb.com/)
-- [Peter Stone - Dept of Computer Science](https://www.cs.utexas.edu/~pstone/)
-- [Vrushabh Zinage - Dept of Aerospace Engineering](https://vrushabh27.github.io/vrushabh_zinage/)
-- [Efstathios Bakolas - Dept of Aerospace Engineering](https://sites.utexas.edu/ebakolas/)
+**UPenn:**
+- [Rahul Mangharam - Dept of Electrical and Systems Engineering](https://www.seas.upenn.edu/~rahulm/)
