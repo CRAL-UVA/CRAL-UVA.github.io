@@ -14,9 +14,9 @@ permalink: /research/
 
 <br><br>
 
-1. **How do robots take risks in real world environments?** Can robots overtake people in crowds? Can robots clean your house when guests are coming over in the next 10 minutes? In this research, we solve risk-aware mobility and autonomy as a spatio-temporal optimization problem.<br><br>
+1. **How do robots take risks in real world environments?** Can robots overtake people in crowds? Can robots clean your house when guests are coming over in the next 10 minutes? In this research, we are currently solving risk-aware mobility and autonomy as a spatio-temporal optimization problem.<br><br>
 2.	**How do robots respect social norms around people?** Can robots understand people--what they're doing and why? what they're about to do? and what is the best way to respond to different people in different contexts? We are currently exploring this problem using VLMs and LLMs.<br><br>
-3.	**How do robots recover and learn from failures?** Can robots learn from their past experiences and generalize to ones in real world contexts? What is the minimum amount of experiences needed? What is the nature of such experiences? What is the optimal representation of such experiences? We are currently solvng this problem using In-Context Reinforcement Learning.
+3.	**How do robots recover and learn from failures?** Can robots learn from their past experiences and generalize to ones in real world contexts? What is the minimum amount of experiences needed? What is the nature of such experiences? What is the optimal representation of such experiences? We are currently solvng this problem using in-context reinforcement learning.
 
 
 
