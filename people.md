@@ -87,3 +87,6 @@ Here are some cool people in fields that interest us. **note:** This list is in 
 
 **UPenn:**
 - [Rahul Mangharam - Dept of Electrical and Systems Engineering](https://www.seas.upenn.edu/~rahulm/)
+
+**UC Berkeley:**
+- [Negar Mehr - Dept of Mechanical Engineering](https://negarmehr.com/)
