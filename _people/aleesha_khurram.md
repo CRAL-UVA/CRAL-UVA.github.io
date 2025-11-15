@@ -1,6 +1,6 @@
 ---
 name: Aleesha Khurram
-position: ug
+position: alumni
 avatar: khurram.jpg 
 twitter: 
 ---
