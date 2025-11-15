@@ -1,7 +1,7 @@
 ---
 name: Rohan Chandra
 position: pi
-avatar: chandra.jpeg
+avatar: chandra2.jpg
 twitter: rohanchandra30
 scholar: 
 ---
