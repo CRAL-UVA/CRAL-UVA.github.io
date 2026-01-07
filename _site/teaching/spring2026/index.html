@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--
+
+  _                    _  _                 _         _
+ | |                  | |(_)               | |       | |
+ | | __ ___   _ __  __| | _  _ __    __ _  | |  __ _ | |__
+ | |/ // _ \ | '__|/ _` || || '_ \  / _` | | | / _` || '_ \
+ |   <| (_) || |  | (_| || || | | || (_| | | || (_| || |_) |
+ |_|\_\\___/ |_|   \__,_||_||_| |_| \__, | |_| \__,_||_.__/
+                                     __/ |
+                                    |___/
+
+
+I love those that desire the impossible - Goethe.
+(if you get email from Konrad, you will see this quote)
+
+                boing         boing         boing
+      e-e           . - .         . - .         . - .
+     (\_/)\       '       `.   ,'       `.   ,'       .
+      `-'\ `--.___,         . .           . .          .
+         '\( ,_.-'
+            \\               "             "            a:f
+            ^'
+
+^ This is basically T-Rex jumping
+
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS 6501 - Multi-Robot Navigation (Spring 2026)</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link href="http://localhost:4000/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:4000/js/zoom.js"></script>
+  <script src="http://localhost:4000/js/transition.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="http://localhost:4000/images/logo/delta.png">
+  <link rel="shortcut icon" href="http://localhost:4000/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/logo/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/logo/delta.png
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/logo/delta.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/logo/delta.png">
+
+  <!-- open graph -->
+
+  
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://localhost:4000/teaching/spring2026/">
+  <meta property="og:title" content="CS 6501 - Multi-Robot Navigation (Spring 2026)">
+  <meta property="og:site_name" content="Chandra Robot Δutonomy Lab at the University of Virginia">
+  <meta property="og:description" content="
+  
+  Spring 2026
+Professor Chandra will teach CS 6501 - Multi-Robot Navigation in Spring 2026.
+
+This course has been designed from first principle..." />
+  <meta property="og:image" content="http://localhost:4000/images/logo/delta_7.png">
+
+</head>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//kordinglab.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<body id="page-top" style="padding-top: 6em;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class='navbar-brand page-scroll' href='/'>
+              <span style='font-family:"Open Sans" font-weight:300'>Chandra Robot Δutonomy Lab</span>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                      <li><a class='name' href="/research">Research</a></li>
+                      
+                      <li><a class='name' href="/publication">publications</a></li>
+                      
+                      <li><a class='name' href="/people">team</a></li>
+                      
+                      <li><a class='name' href="/presentations">teaching</a></li>
+                      
+                    </ul>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>
+
+    <div class="container content page">
+  <!-- <h1 class="page-title">CS 6501 - Multi-Robot Navigation (Spring 2026)</h1> -->
+  <h3 id="spring-2026">Spring 2026</h3>
+<p><a href="http://127.0.0.1:4000/people/rohan_chandra/index.html">Professor Chandra</a> will teach CS 6501 - Multi-Robot Navigation in Spring 2026.</p>
+
+<p>This course has been designed from first principles and developed entirely from scratch including all lectures and assignments. All instruction is delivered on the blackboard to encourage deep reasoning, step-by-step derivation, and conceptual understanding. The course is organized into three parts: Part I (Theory), Part II (Algorithms), and Part III (Student Participation), and is intended to prepare graduate students to both conduct rigorous theoretical research in multi-robot navigation (MRN) and to pursue application-driven work grounded in a strong mathematical foundation.</p>
+
+<p>Part I formalizes the MRN problem, introduces a standard taxonomy (centralized vs. decentralized systems, communication protocols, observability, and cooperation), and examines key system properties such as safety, liveness, social compliance, and fairness. Part II develops the principles behind major MRN algorithmic paradigms including MAPF, MARL, Dynamic Game Theory, Collision Avoidance, Neural Control, and Foundation Models while engaging with influential recent research papers in each area. Part III is where students will apply what they have learned up til now in the form of in-class research paper and project presentations.</p>
+
+<p>Link to SMGLib Project Page: <a href="https://socialminigames.github.io/">SMGLib Project</a>.</p>
+
+<!-- Based on the scribed lecture notes, we compiled a monograph of the course here: [Lecture Notes](https://myuva-my.sharepoint.com/:b:/g/personal/aar8xx_virginia_edu/IQAjceCRBQWVQ623U_q8iidpASMsMedXnA2o45S7XzzhoIQ?e=kg5OlB) -->
+
+<table>
+  <colgroup>
+    <col style="width:100px;" />
+    <col style="width:110px;" />
+    <col style="width:200px;" />
+    <col />
+  </colgroup>
+  <tr>
+    <th>Date</th><th>Day</th><th>Topic</th><th>Assigned Reading</th>
+  </tr>
+
+  <tr><td colspan="4" align="center"><b>PART 1: Theory</b></td></tr>
+
+  <tr><td>12-Jan-26</td><td>Monday</td><td>Introduction + Logistics + Problem Formulation</td><td></td></tr>
+
+  <tr><td>14-Jan-26</td><td>Wednesday</td><td>Problem Formulation (contd.) and Taxonomy</td><td></td></tr>
+
+  <tr><td>19-Jan-26</td><td>Monday</td><td>Holiday (MLK Day)</td><td></td></tr>
+
+  <tr>
+    <td>21-Jan-26</td><td>Wednesday</td><td>Safety - I</td>
+    <td><a href="https://ieeexplore.ieee.org/document/7857061">Safety Barrier Certificates for Heterogeneous Multi-Robot Systems</a></td>
+  </tr>
+
+<tr>
+  <td>26-Jan-26</td>
+  <td>Monday</td>
+  <td>Safety - II</td>
+  <td>
+    <a href="https://ieeexplore.ieee.org/document/10077790">
+      BarrierNet: Differentiable Control Barrier Functions for Learning of Safe Robot Control
+    </a>
+  </td>
+</tr>
+
+  <tr>
+    <td>28-Jan-26</td><td>Wednesday</td><td>Liveness-I</td>
+    <td>
+      <a href="https://web.stanford.edu/~schwager/MyPapers/ZhouEtAlRAL17CollisionAvoidance.pdf">Fast, On-line Collision Avoidance for Dynamic Vehicles Using Buffered Voronoi Cells</a><br /><br />
+      <a href="https://arxiv.org/abs/2303.10133">DS-MPEPC: Safe and Deadlock-Avoiding Robot Navigation in Cluttered Dynamic Scenes</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td>2-Feb-26</td><td>Monday</td><td>Liveness-II</td>
+    <td>
+      <a href="https://arxiv.org/abs/2403.06763">Deadlock-free, Safe, and Decentralized Multi-Robot Navigation in Social Mini-Games via Discrete-Time Control Barrier Functions</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>4-Feb-26</td><td>Wednesday</td><td>Social Compliance</td>
+    <td>
+    <a href="https://ieeexplore.ieee.org/document/10777573">VLM-Social-Nav: Socially Aware Robot Navigation through Scoring using Vision-Language Models</a><br /><br />
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3700599">Principles and Guidelines for Evaluating Social Robot Navigation Algorithms</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>9-Feb-26</td><td>Monday</td><td>Fairness</td>
+    <td>      
+      <a href="https://ieeexplore.ieee.org/abstract/document/10093969">Socialmapf: Optimal and efficient multi-agent path finding with strategic agents for social navigation</a><br /><br />
+      <a href="https://ieeexplore.ieee.org/abstract/document/9921968">GAMEOPT: Optimal Real-time Multi-Agent Planning and Control at Dynamic Intersections</a>
+      </td>
+  </tr>
+
+  <tr><td colspan="4" align="center"><b>PART 2: Algorithms</b></td></tr>
+  <!-- <tr><td>11-Feb-26</td><td>Wednesday</td><td>Tracking + TP</td><td>
+        <a href="https://arxiv.org/abs/2006.11275">Center-based 3D Object Detection and Tracking</a><br><br>
+      <a href="https://arxiv.org/abs/1602.00763">Simple Online and Realtime Tracking</a><br><br>
+      <a href="https://arxiv.org/abs/2001.03093">Trajectron++</a>
+  </td></tr> -->
+<tr>
+  <td>11-Feb-26</td>
+  <td>Wednesday</td>
+  <td>MAPF-I</td>
+  <td>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-33274-7_6">
+      Multi-Agent Path Finding – Overview
+    </a>
+  </td>
+</tr>
+
+
+  <tr>
+    <td>16-Feb-26</td><td>Monday</td><td>MAPF-II</td>
+    <td>
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-33274-7_6">Multi-Agent Path Finding – Overview</a>
+    </td>
+  </tr>
+
+  <tr><td>18-Feb-26</td><td>Wednesday</td><td>Project Check-ins</td><td></td></tr>
+
+  <tr>
+    <td>23-Feb-26</td><td>Monday</td><td>Midterm (take home)</td>
+    <td></td>
+  </tr>
+
+  <tr><td>25-Feb-26</td><td>Wednesday</td><td>Midterm (take home)</td><td></td></tr>
+
+  <tr><td>2-Mar-26</td><td>Monday</td><td>Spring Break</td><td></td></tr>
+  <tr><td>4-Mar-26</td><td>Wednesday</td><td>Spring Break</td><td></td></tr>
+
+  <tr><td>9-Mar-26</td><td>Monday</td><td>
+    Guest Lecture - I
+</td><td>
+Prof. Negar Mehr (UC Berkeley)
+</td></tr>
+
+  <tr><td>11-Mar-26</td><td>Wednesday</td><td>
+  Guest Lecture - II
+  </td><td>
+  Prof. Jiaoyang Li (CMU)
+  </td></tr>
+
+  <tr><td>16-Mar-26</td><td>Monday</td><td>MARL-I</td><td></td></tr>
+
+  <tr><td>18-Mar-26</td><td>Wednesday</td><td>MARL-II</td><td></td></tr>
+
+  <tr><td>23-Mar-26</td><td>Monday</td><td>Mid-Semester Project Presentation</td><td></td></tr>
+
+<tr><td>25-Mar-26</td><td>Wednesday</td><td>Mid-Semester Project Presentation</td><td></td></tr>
+
+<tr>
+  <td>30-Mar-26</td><td>Monday</td>
+  <td>Optimal Reciprocal Collision Avoidance</td>
+  <td>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-642-19457-3_1">
+      Reciprocal n-body collision avoidance
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td>1-Apr-26</td><td>Wednesday</td>
+  <td>Dynamic Game Theory</td>
+  <td>
+    <a href="https://ieeexplore.ieee.org/document/9341137">
+      Game-Theoretic Planning for Risk-Aware Interactive Agents
+    </a><br /><br />
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10021943">
+      Maximum-Entropy Multi-Agent Dynamic Games: Forward and Inverse Solutions
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td>6-Apr-26</td><td>Monday</td>
+  <td>Model Predictive Control</td>
+  <td>
+    <a href="https://arxiv.org/html/2202.06071v4">
+      Deadlock Resolution and Recursive Feasibility in MPC-based Multi-robot Trajectory Generation
+    </a>
+  </td>
+</tr>
+
+<tr><td>8-Apr-26</td><td>Wednesday</td><td>Learning from Demonstration</td><td>
+<a href="https://arxiv.org/pdf/2401.14554">
+      GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control
+    </a>
+</td></tr>
+
+<tr><td colspan="4" align="center"><b>PART 3: Student Participation</b></td></tr>
+
+  <tr><td>13-Apr-26</td><td>Monday</td><td>Presentation - I</td><td></td></tr>
+
+  <tr>
+    <td>15-Apr-26</td><td>Wednesday</td><td>Presentation - II</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>20-Apr-26</td><td>Monday</td><td>Presentation - III</td>
+    <td></td>
+  </tr>
+
+  <tr><td>22-Apr-26</td><td>Wednesday</td><td>Project Presentation</td><td></td></tr>
+  <tr><td>27-Apr-26</td><td>Monday</td><td>Project Presentation</td><td></td></tr>
+</table>
+
+<h2 id="honor">Honor</h2>
+
+<p>Please note these guidelines: https://honor.virginia.edu/faculty-tas</p>
+
+<h2 id="use-of-generative-ai">Use of Generative AI</h2>
+
+<p>Using generative AI tools such as ChatGPT to complete homeworks and exams is <strong>prohibited</strong>.</p>
+
+<!-- ## Late Policy
+
+Homeworks are due on **Monday**.
+
+- Submit by **Monday 5:00 PM** → **100% credit**
+- Submit by **Wednesday 5:00 PM (following week)** → **50% credit** -->
+
+<h2 id="students-with-disabilities-or-learning-needs">Students with Disabilities or Learning Needs</h2>
+
+<p>It is my goal to create a learning experience that is as accessible as possible. If you anticipate any issues related to the format, materials, or requirements of this course, please meet with me outside of class so we can explore potential options.</p>
+
+<p>Students with disabilities may also wish to work with the <strong>Student Disability Access Center (SDAC)</strong> to discuss options for removing barriers in this course, including official accommodations.</p>
+
+<p>We are fortunate to have an SDAC advisor, <strong>Courtney MacMasters</strong>, located in Engineering.<br />
+Email: <strong>cmacmasters@virginia.edu</strong></p>
+
+<p>For general questions, please visit the SDAC website.</p>
+
+<p>If you have already been approved for accommodations through SDAC, please send me your accommodation letter and meet with me so we can develop an implementation plan together.</p>
+
+<h2 id="religious-accommodations">Religious Accommodations</h2>
+
+<p>It is the University’s policy to reasonably accommodate students so they do not experience adverse academic consequences when sincerely held religious beliefs or observances conflict with academic requirements.</p>
+
+<p>Students requesting accommodation should email me <strong>as far in advance as possible</strong>.</p>
+
+<p>Questions may be directed to the <strong>Office for Equal Opportunity and Civil Rights (EOCR)</strong>:<br />
+📧 UVAEOCR@virginia.edu<br />
+📞 434-924-3200</p>
+
+<h2 id="other-accommodations">Other Accommodations</h2>
+
+<p>If you need to reschedule an assignment or are unable to take an exam or assignment on a scheduled day, you must <strong>reach out in advance</strong> and communicate with the instructor.</p>
+
+<h2 id="harassment-discrimination-and-interpersonal-violence">Harassment, Discrimination, and Interpersonal Violence</h2>
+
+<p>The University of Virginia is dedicated to providing a safe and equitable learning environment.</p>
+
+<p>More information and resources: https://www.virginia.edu/sexualviolence</p>
+
+<p>The same resources and options apply to cases of <strong>discrimination, harassment, and retaliation</strong>. UVA prohibits discrimination based on:</p>
+
+<blockquote>
+  <p>age, color, disability, family medical or genetic information, gender identity or expression, marital status, military status, national or ethnic origin, political affiliation, pregnancy, race, religion, sex, sexual orientation, or veteran status.</p>
+</blockquote>
+
+<p>Reports may be submitted via <strong>Just Report It</strong> (https://justreportit.virginia.edu) or by contacting EOCR.</p>
+
+<p>Confidential resources include:</p>
+
+<ul>
+  <li>Counseling &amp; Psychological Services (CAPS)</li>
+  <li>Women’s Center Counseling Staff &amp; Confidential Advocates</li>
+</ul>
+
+<p>As a faculty member, I am a <strong>responsible employee</strong> and must report certain disclosures to the Title IX Coordinator, whose role is to ensure student safety and access to support.</p>
+
+<h2 id="learning-support">Learning Support</h2>
+
+<ul>
+  <li><strong>Lisa Lampe</strong> — Assistant Dean for Undergraduate Affairs</li>
+  <li><strong>Georgina Nembhard</strong> — Director of Student Success</li>
+  <li><strong>Courtney MacMasters</strong> — Accessibility Specialist</li>
+</ul>
+
+<p>Free tutoring is available for most classes.</p>
+
+<h2 id="health-and-wellbeing">Health and Wellbeing</h2>
+
+<ul>
+  <li><strong>Kelly Garrett</strong> — Assistant Dean of Students, Student Safety &amp; Support</li>
+  <li><strong>Elizabeth Ramirez-Weaver</strong> — CAPS Counselor*</li>
+  <li><strong>Katie Fowler</strong> — CAPS Counselor*</li>
+</ul>
+
+<p>*Schedule via Student Health: https://www.studenthealth.virginia.edu/getting-started-caps<br />
+Be sure to specify that you are an <strong>Engineering student</strong>.</p>
+
+<p>You are also encouraged to use <strong>TimelyCare</strong> for scheduled or on-demand 24/7 mental health care.</p>
+
+<h2 id="community-and-identity">Community and Identity</h2>
+
+<p>The <strong>Center for Diversity in Engineering (CDE)</strong> is a student space dedicated to supporting underrepresented groups in STEM. The CDE provides:</p>
+
+<ul>
+  <li>study and community space</li>
+  <li>staff support</li>
+  <li>academic, financial, health, and inclusion resources</li>
+</ul>
+
+<p>Through this space, we affirm and empower equitable participation and support students on their academic journeys and future careers.</p>
+
+</div>
+
+
+    <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-34145995-1");
+    pageTracker._trackPageview();
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34145995-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34145995-1');
+    </script>
+
+</body>
+</html>
