@@ -14,9 +14,16 @@ permalink: /research/
 
 <br><br>
 
-1. **How do robots take risks in real world environments?** Can robots overtake people in crowds? Can robots clean your house when guests are coming over in the next 10 minutes? In this research, we are currently solving risk-aware mobility and autonomy as a spatio-temporal optimization problem.<br><br>
+I work on human-like autonomy for robots. Human-like autonomy for me means three things: the robot should be able to generalize in open worlds, they should be able to reason about human intent, and they should be able to perform agile control in underactuated regimes. My current work focuses on HLA for multi-robot and human-robot systems.<br><br>
+
+<!-- 1. In one project, we are trying to reduce the real2sim gap by developing new world model representations.
+2. In another direction, we are improving the agility of multi-robot and human-robot systems using adaptive and optimal control. -->
+
+
+
+<!-- 1. **How do robots take risks in real world environments?** Can robots overtake people in crowds? Can robots clean your house when guests are coming over in the next 10 minutes? In this research, we are currently solving risk-aware mobility and autonomy as a spatio-temporal optimization problem.<br><br>
 2.	**How do robots respect social norms around people?** Can robots understand people--what they're doing and why? what they're about to do? and what is the best way to respond to different people in different contexts? We are currently exploring this problem using VLMs and LLMs.<br><br>
-3.	**How do robots recover and learn from failures?** Can robots learn from their past experiences and generalize to new ones in real world contexts? What is the minimum amount of experiences needed? What is the nature of such experiences? What is the optimal representation of such experiences? We are currently solvng this problem using in-context reinforcement learning.
+3.	**How do robots recover and learn from failures?** Can robots learn from their past experiences and generalize to new ones in real world contexts? What is the minimum amount of experiences needed? What is the nature of such experiences? What is the optimal representation of such experiences? We are currently solvng this problem using in-context reinforcement learning. -->
 
 
 

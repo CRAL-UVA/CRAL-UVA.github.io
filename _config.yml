@@ -24,9 +24,9 @@ highlighter:        rouge
 nav:
   # - name:           "home"
     # href:           "/"
-  - name:           "Research"
-    href:           "/research"
-  - name:           "publications"
+  # - name:           "Research"
+    # href:           "/research"
+  - name:           "research"
     href:           "/publication"
   # - name:           "litreview"
   #   href:           "/litreview"
