@@ -14,7 +14,9 @@ permalink: /research/
 
 <br><br>
 
+<center>
 I work on human-like autonomy for robots. Human-like autonomy for me means three things: the robot should be able to generalize in open worlds, they should be able to reason about human intent, and they should be able to perform agile control in underactuated regimes. My current work focuses on HLA for multi-robot and human-robot systems.<br><br>
+</center>
 
 <!-- 1. In one project, we are trying to reduce the real2sim gap by developing new world model representations.
 2. In another direction, we are improving the agility of multi-robot and human-robot systems using adaptive and optimal control. -->
