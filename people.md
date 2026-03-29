@@ -65,16 +65,16 @@ permalink: /people/
 
 | Who are they | When were they here | Where they went | Publications |
 | :------------- |:-------------| :-----------|
-| [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) | UG (2024) | Space X | L4DC 2025|
-| [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | UG (2025) | MS at CMU | L4DC 2025|
-| [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) | UG (2025) | Metron | MRS 2025|
-| [Aleesha Khurram](https://www.linkedin.com/in/aleesha-khurram-4bb262262/) | UG (2026) | MS at Oxford | TBD|
+| [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) | UG (2024) | Space X | [L4DC 2025](https://livenet-uva.github.io/)|
+| [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | UG (2025) | MS at CMU | [L4DC 2025](https://livenet-uva.github.io/)|
+| [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) | UG (2025) | Metron | [MRS 2025](https://gamechat-uva.github.io/)|
+| [Aleesha Khurram](https://www.linkedin.com/in/aleesha-khurram-4bb262262/) | UG (2026) | MS at Oxford | [Under Review at IROS26](https://arxiv.org/pdf/2511.12755)|
 
 <!-- Add more rows as needed -->
 {% endif %}
 <hr>
 
-### Active Collaborators
+<!-- ### Active Collaborators
 
 Here are some cool people in fields that interest us. **note:** This list is in no way complete. We have a lot of collaborators -- if you've collaborated with us and want a link here, let us know!
 
@@ -90,4 +90,4 @@ Here are some cool people in fields that interest us. **note:** This list is in 
 - [Rahul Mangharam - Dept of Electrical and Systems Engineering](https://www.seas.upenn.edu/~rahulm/)
 
 **UC Berkeley:**
-- [Negar Mehr - Dept of Mechanical Engineering](https://negarmehr.com/)
+- [Negar Mehr - Dept of Mechanical Engineering](https://negarmehr.com/) -->
