@@ -11,6 +11,8 @@ description: Research at CRΔL on physical AI.
 
 <p class="rl-stub">This page is being written.</p>
 
+{% include research-nav.html label="More research at CRΔL" %}
+
 <!--
   Scaffolding, kept in step with /social-mini-games and /autonomous-driving.
   Delete the .rl-stub line above, then uncomment and fill in.

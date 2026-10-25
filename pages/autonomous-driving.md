@@ -238,3 +238,5 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
   </li>
 </ul>
 </div>
+
+{% include research-nav.html label="More research at CRΔL" %}

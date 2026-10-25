@@ -237,6 +237,8 @@ description: Research at CRΔL on multi-robot navigation in social mini-games �
 </ul>
 </div>
 
+{% include research-nav.html label="More research at CRΔL" %}
+
 <script>
 // In-page links scroll to their target without leaving the fragment in the URL,
 // so a refresh reloads /social-mini-games/ at the top rather than jumping back.

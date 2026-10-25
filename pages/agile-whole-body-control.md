@@ -19,3 +19,5 @@ description: Research at CRΔL on humanoid robot autonomy.
 
 </ol>
 </div>
+
+{% include research-nav.html label="More research at CRΔL" %}

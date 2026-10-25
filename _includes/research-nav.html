@@ -1,0 +1,24 @@
+{%- comment -%}
+A row of links to every research page, built from the "research" group in
+_config.yml so this list and the navbar dropdown cannot drift apart.
+The page you are on renders as plain text instead of a link.
+Optional parameters: label (defaults to "Research at CRΔL") and
+extra_class (e.g. "rl-more-center" for the centred row on the home page).
+{%- endcomment -%}
+{%- for nav in site.nav -%}
+{%- if nav.items -%}
+<nav class="rl-more{% if include.extra_class %} {{ include.extra_class }}{% endif %}" aria-label="Research areas">
+  <span class="rl-more-label">{% if include.label %}{{ include.label }}{% else %}Research at CRΔL{% endif %}</span>
+  <ul class="rl-more-list">
+    {%- for item in nav.items -%}
+    {%- assign item_url = item.href | append: '/' -%}
+    {%- if page.url == item_url or page.url == item.href -%}
+    <li><span class="rl-more-here" aria-current="page">{{ item.name }}</span></li>
+    {%- else -%}
+    <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</nav>
+{%- endif -%}
+{%- endfor -%}

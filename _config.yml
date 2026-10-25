@@ -30,8 +30,8 @@ nav:
     items:
       - name:       "social mini-games"
         href:       "/social-mini-games"
-      # - name:       "physical AI"
-      #   href:       "/physical-ai"
+      - name:       "physical AI"
+        href:       "/physical-ai"
       - name:       "humanoid robot autonomy"
         href:       "/agile-whole-body-control"
       - name:       "autonomous driving"

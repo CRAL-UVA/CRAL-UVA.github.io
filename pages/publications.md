@@ -9,6 +9,8 @@ permalink: /publication/
 <br>
 <center><p>Human-like autonomy for me means three things: the robot should be able to generalize in open worlds, they should be able to reason about human intent, and they should be agile in underactuated regimes. My current work focuses on human-like autonomy for multi-robot and human-robot systems.</p></center>
 
+{% include research-nav.html label="Browse by research area" %}
+
 <!-- For those interested in numbers, see Rohan's [google scholar citations profile](https://scholar.google.com/citations?user=uOIgTt8AAAAJ&hl=). -->
 <!-- <hr> -->
 
