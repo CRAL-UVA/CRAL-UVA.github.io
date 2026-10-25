@@ -54,8 +54,25 @@ For lab position, you can choose position from 4 classes including `postdoc`, `g
 
 ### Add new publications
 
-All publications from the lab are located in `publications.md`. Please upload new publication on your own!
+The publications page is generated from `documents/references.bib` by `js/publications.js`.
+Add your BibTeX entry to that file and it will appear at `/publication`. The page itself
+lives in `pages/publications.md`.
 
 ### Add news
 
-All news presented in the front page by editing `_data/news.yml`. There are some symbol that cannot be used directly e.g. `:`, be careful
+News on the front page is the list inside `index.html`. Add a line at the top of that list.
+
+### Where things live
+
+| What | Where |
+| :--- | :--- |
+| Site pages (publications, people, research, ...) | `pages/` |
+| Blog posts | `_posts/` |
+| Person profiles | `_people/` |
+| Course pages | `_teaching/` |
+| Layouts and the navbar | `_layouts/`, `_includes/` |
+| Stylesheet | `css/style.scss` |
+| Bibliography, CVs, PDFs | `documents/` |
+| Helper scripts | `scripts/` |
+
+Pages in `pages/` each declare their own `permalink`, so the folder never appears in a URL.

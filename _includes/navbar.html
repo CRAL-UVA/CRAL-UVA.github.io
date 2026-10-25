@@ -16,11 +16,21 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <ul class="nav navbar-nav navbar-right">
-                      {% for nav in site.nav %}
+                  {% for nav in site.nav %}
+                    {% if nav.items %}
+                      <li class="dropdown">
+                        <a class="name dropdown-toggle" role="button" tabindex="0"
+                           aria-haspopup="true">{{ nav.name }}<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          {% for item in nav.items %}
+                          <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </li>
+                    {% else %}
                       <li><a class='name' href="{{ nav.href }}">{{ nav.name }}</a></li>
-                      {% endfor %}
-                    </ul>
+                    {% endif %}
+                  {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

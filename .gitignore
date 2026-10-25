@@ -1,0 +1,7 @@
+# Jekyll build output - GitHub Pages rebuilds this from source on every push
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# macOS
+.DS_Store
