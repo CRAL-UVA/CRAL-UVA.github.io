@@ -1,6 +1,6 @@
 ---
 name: Luc D'Costa
-position: ug
+position: alumni
 avatar: dcosta.jpg
 twitter:
 ---
