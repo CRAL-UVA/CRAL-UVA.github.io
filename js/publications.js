@@ -295,8 +295,11 @@
     add("Code", entry.code);
     add("Video", entry.video);
 
+    /* Last resort for an entry pasted in without a url, doi, or eprint:
+       send people somewhere obvious rather than nowhere. Give the entry a
+       url field pointing at its PDF and this never fires. */
     if (!links.length) {
-      add("Search", "https://scholar.google.com/scholar?q=" +
+      add("Google Scholar", "https://scholar.google.com/scholar?q=" +
         encodeURIComponent(entry.title || ""));
     }
     return links;
