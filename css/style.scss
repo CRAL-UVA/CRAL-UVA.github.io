@@ -925,6 +925,7 @@ $nav-collapse: 767px;   // below this the links become the hamburger
   flex-direction: column;
 }
 
+// each card links to the matching section further down the page
 .rl-level {
   display: flex;
   flex: 1 1 auto;
@@ -935,6 +936,24 @@ $nav-collapse: 767px;   // below this the links become the hamburger
   border-left: 4px solid rgba(229, 114, 0, 0.85);
   border-radius: 7px;
   background: #f4f7fb;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 180ms ease, background-color 180ms ease;
+
+  &:hover,
+  &:focus {
+    border-color: rgba(229, 114, 0, 0.45);
+    border-left-color: #E57200;
+    background: #fdf4ec;
+    text-decoration: none;
+
+    .rl-level-name { color: #E57200; }
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(229, 114, 0, 0.6);
+    outline-offset: 2px;
+  }
 }
 
 .rl-level-name {
@@ -942,6 +961,7 @@ $nav-collapse: 767px;   // below this the links become the hamburger
   font-weight: 600;
   line-height: 1.25;
   color: #232D4B;
+  transition: color 180ms ease;
 }
 
 .rl-level-note {
@@ -1017,6 +1037,14 @@ $nav-collapse: 767px;   // below this the links become the hamburger
     font-size: 1.15rem;
     color: #232D4B;
     margin-bottom: 0.2rem;
+    transition: box-shadow 300ms ease;
+  }
+
+  /* arriving from the stack diagram or the trivia box; :target covers the
+     no-JS case, .rl-flash is set by the script that drops the fragment */
+  &:target h3,
+  &.rl-flash h3 {
+    box-shadow: inset 0 -0.42em 0 rgba(229, 114, 0, 0.22);
   }
 
   > p {
@@ -1182,4 +1210,28 @@ $nav-collapse: 767px;   // below this the links become the hamburger
   margin: 1.8rem 0 0;
 
   .rl-more-list { justify-content: center; }
+}
+
+// ---------------------------------------------------- outbound body link ---
+// For links in running prose that should read as links, unlike .rl-term,
+// which stays invisible until you hover its highlighted phrase.
+
+.rl-link {
+  color: #232D4B;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(229, 114, 0, 0.45);
+  transition: color 180ms ease, border-color 180ms ease;
+
+  &:hover,
+  &:focus {
+    color: #E57200;
+    border-bottom-color: #E57200;
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(229, 114, 0, 0.6);
+    outline-offset: 2px;
+  }
 }

@@ -92,6 +92,48 @@ s.setAttribute('data-timestamp', +new Date());
     {% include navbar.html %}
     {{ content }}
 
+    <script>
+    // Links that leave the site open in a new tab. In-page anchors and links to
+    // other pages of this site stay put, and a target already in the markup wins.
+    // The observer picks up lists rendered after load, e.g. the publication list.
+    (function () {
+      function mark(node) {
+        if (!node || node.nodeType !== 1) { return; }
+        var links = [];
+        if (node.tagName === 'A' && node.getAttribute('href')) { links.push(node); }
+        if (node.querySelectorAll) {
+          links = links.concat([].slice.call(node.querySelectorAll('a[href]')));
+        }
+        for (var i = 0; i < links.length; i++) {
+          var a = links[i];
+          if (a.getAttribute('target')) { continue; }
+          if (a.protocol !== 'http:' && a.protocol !== 'https:') { continue; }
+          if (a.host === window.location.host) { continue; }
+          a.setAttribute('target', '_blank');
+          var rel = a.getAttribute('rel');
+          a.setAttribute('rel', rel ? rel + ' noopener noreferrer' : 'noopener noreferrer');
+        }
+      }
+
+      function run() {
+        mark(document.body);
+        if (!window.MutationObserver) { return; }
+        new MutationObserver(function (records) {
+          for (var i = 0; i < records.length; i++) {
+            var added = records[i].addedNodes;
+            for (var j = 0; j < added.length; j++) { mark(added[j]); }
+          }
+        }).observe(document.body, { childList: true, subtree: true });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', run);
+      } else {
+        run();
+      }
+    })();
+    </script>
+
     <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

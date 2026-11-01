@@ -110,12 +110,12 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
 
 <ul class="rl-papers">
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/IROS40897.2019.8968470">DensePeds</a>
+    <a class="rl-name" href="https://doi.org/10.1109/IROS40897.2019.8968470">DensePeds: Pedestrian Tracking in Dense Crowds Using Front-RVO and Sparse Features</a>
     <span class="rl-venue">IROS 2019</span>
     <p>Tracks pedestrians in dense crowds using a motion model of how people actually avoid each other (Front-RVO) rather than generic constant-velocity assumptions. The same collision avoidance that creates the occlusions becomes the prior that recovers from them.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/ICRA40945.2020.9196612">RoadTrack</a>
+    <a class="rl-name" href="https://doi.org/10.1109/ICRA40945.2020.9196612">RoadTrack: Realtime Tracking of Road Agents in Dense and Heterogeneous Environments</a>
     <span class="rl-venue">ICRA 2020</span>
     <p>Extends the idea to road agents of very different sizes and dynamics sharing the same space, and runs in real time on video from a moving vehicle.</p>
   </li>
@@ -129,17 +129,17 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
 
 <ul class="rl-papers">
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/CVPR.2019.00868">TraPHic</a>
+    <a class="rl-name" href="https://doi.org/10.1109/CVPR.2019.00868">TraPHic: Trajectory Prediction in Dense and Heterogeneous Traffic Using Weighted Interactions</a>
     <span class="rl-venue">CVPR 2019</span>
     <p>Weights each neighbor by how much it actually constrains the ego agent instead of treating everything within a radius equally, and weights heterogeneous agents differently because a bus and a bicycle impose different costs.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://doi.org/10.1145/3359999.3360495">RobustTP</a>
+    <a class="rl-name" href="https://doi.org/10.1145/3359999.3360495">RobustTP: End-to-End Trajectory Prediction for Heterogeneous Road-Agents in Dense Traffic with Noisy Sensor Inputs</a>
     <span class="rl-venue">ACM CSCS 2019</span>
     <p>Predicts end to end from raw sensor input, so the predictor absorbs the tracker's noise rather than assuming it was handed clean trajectories. Accuracy measured against ground-truth trajectories overstates what a predictor actually delivers inside a real stack.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/LRA.2020.3004794">Forecasting Trajectory and Behavior with Spectral Clustering in Graph-LSTMs</a>
+    <a class="rl-name" href="https://doi.org/10.1109/LRA.2020.3004794">Forecasting Trajectory and Behavior of Road-Agents Using Spectral Clustering in Graph-LSTMs</a>
     <span class="rl-venue">RA-L 2020</span>
     <p>Predicts where an agent will go and what kind of driver it is at the same time. The two help each other: knowing a driver is aggressive sharpens the trajectory, and the trajectory is the only evidence available for the label.</p>
   </li>
@@ -153,12 +153,12 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
 
 <ul class="rl-papers">
   <li>
-    <a class="rl-name" href="https://proceedings.mlr.press/v229/wu23b.html">iPLAN: Intent-Aware Planning via Distributed Multi-Agent RL</a>
+    <a class="rl-name" href="https://proceedings.mlr.press/v229/wu23b.html">iPLAN: Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning</a>
     <span class="rl-venue">CoRL 2023</span>
     <p>Each agent infers its neighbors' intent from their observed trajectories and plans against that estimate, instead of assuming that everyone shares a policy or a set of rules.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/LRA.2022.3152594">B-GAP</a>
+    <a class="rl-name" href="https://doi.org/10.1109/LRA.2022.3152594">B-GAP: Behavior-Rich Simulation and Navigation for Autonomous Driving</a>
     <span class="rl-venue">RA-L 2022</span>
     <p>Most driving simulators generate well-behaved traffic, so policies trained in them are only ever tested against drivers who yield. B-GAP generates behavior-rich traffic with a controllable mix of aggressive and conservative drivers, and trains navigation policies in it.</p>
   </li>
@@ -173,12 +173,12 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
 
 <ul class="rl-papers">
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/IROS45743.2020.9341720">CMetric</a>
+    <a class="rl-name" href="https://doi.org/10.1109/IROS45743.2020.9341720">CMetric: A Driving Behavior Measure Using Centrality Functions</a>
     <span class="rl-venue">IROS 2020</span>
     <p>Defines driver behavior through centrality on the traffic interaction graph. A driver that many others must react to is, by that measure, aggressive, and the measure is computable from trajectories alone.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/ICRA40945.2020.9196751">GraphRQI</a>
+    <a class="rl-name" href="https://doi.org/10.1109/ICRA40945.2020.9196751">GraphRQI: Classifying Driver Behaviors Using Graph Spectrums</a>
     <span class="rl-venue">ICRA 2020</span>
     <p>Classifies driver behavior from the spectrum of that same graph, which gives a classifier fast enough to run alongside the planner rather than offline.</p>
   </li>
@@ -188,7 +188,7 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
     <p>The journal treatment that pulls the graph-theoretic line together and tests it across datasets, with the analysis the conference papers had no room for.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://arxiv.org/abs/2405.05354">Transfer-LMR</a>
+    <a class="rl-name" href="https://arxiv.org/abs/2405.05354">Transfer-LMR: Heavy-Tail Driving Behavior Recognition in Diverse Traffic Scenarios</a>
     <span class="rl-venue">Preprint</span>
     <p>The behaviors that matter most are the ones you have least data for. This work recognizes heavy-tail driving behavior across diverse traffic scenarios by transferring from the common cases into the rare ones.</p>
   </li>
@@ -202,17 +202,17 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
 
 <ul class="rl-papers">
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/ICRA48891.2023.10161281">METEOR</a>
+    <a class="rl-name" href="https://doi.org/10.1109/ICRA48891.2023.10161281">METEOR: A Dense, Heterogeneous, and Unstructured Traffic Dataset with Rare Behaviors</a>
     <span class="rl-venue">ICRA 2023</span>
     <p>A dense, heterogeneous, and unstructured traffic dataset annotated specifically for rare behaviors: the pedestrian crossing mid-block, the animal on the road, the scooter coming the wrong way down the lane.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://arxiv.org/abs/2412.20042">DAVE</a>
+    <a class="rl-name" href="https://arxiv.org/abs/2412.20042">DAVE: Diverse Atomic Visual Elements Dataset with High Representation of Vulnerable Road Users in Complex and Unpredictable Environments</a>
     <span class="rl-venue">IV 2026</span>
     <p>A video dataset built around vulnerable road users, with atomic visual element annotations, in environments where their behavior is genuinely hard to anticipate.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://doi.org/10.1109/LRA.2022.3152594">B-GAP</a>
+    <a class="rl-name" href="https://doi.org/10.1109/LRA.2022.3152594">B-GAP: Behavior-Rich Simulation and Navigation for Autonomous Driving</a>
     <span class="rl-venue">RA-L 2022</span>
     <p>Listed above under planning, and just as much a simulation contribution: it is how we generate the aggressive drivers that the datasets only capture occasionally.</p>
   </li>
@@ -227,12 +227,12 @@ description: Research at CRΔL on autonomous driving in dense, heterogeneous, an
 
 <ul class="rl-papers">
   <li>
-    <a class="rl-name" href="https://arxiv.org/abs/2511.12751">Are LLMs The Way Forward? LLM-Guided RL for Decentralized Autonomous Driving</a>
+    <a class="rl-name" href="https://arxiv.org/abs/2511.12751">Are LLMs The Way Forward? A Case Study on LLM-Guided Reinforcement Learning for Decentralized Autonomous Driving</a>
     <span class="rl-venue">ICRA 2026</span>
     <p>A case study rather than a proposal. We put an LLM in the loop of a decentralized driving policy and report where it helps and where it only adds cost.</p>
   </li>
   <li>
-    <a class="rl-name" href="https://arxiv.org/abs/2511.12755">Prompt-Driven Domain Adaptation for End-to-End Driving via In-Context RL</a>
+    <a class="rl-name" href="https://arxiv.org/abs/2511.12755">Prompt-Driven Domain Adaptation for End-to-End Autonomous Driving via In-Context RL</a>
     <span class="rl-venue">Preprint</span>
     <p>Adapts an end-to-end driving policy to a new domain through prompting and in-context reinforcement learning instead of retraining, which is the property that would make deployment across regions practical.</p>
   </li>
