@@ -33,7 +33,7 @@ nav:
       # - name:       "physical AI"
       #   href:       "/physical-ai"
       - name:       "humanoid robot autonomy"
-        href:       "/agile-whole-body-control"
+        href:       "/humanoid-robot-autonomy"
       - name:       "autonomous driving"
         href:       "/autonomous-driving"
   - name:           "publications"
