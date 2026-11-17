@@ -15,7 +15,7 @@ description: Research at CRΔL on humanoid robot autonomy.
 <ol class="rl-open">
   <li><span class="rl-q">Human-Robot-Environment Co-optimization (HERO).</span> While necessary as a key component, physical AI alone is insufficient for autonomous humanoid robots, particularly when the environment is unstructured, messy, and complex. Going forwards, we will need to co-optimize the robot&rsquo;s environment in parallel with its autonomy.</li>
 
-  <li><span class="rl-q">Generalizable autonomy in open worlds.</span> We're looking at ways to minimize the sim2real gap via real2sim2real. Specifcally, we're designing on-the-fly world models from RGB videos that can be used for post-training off-the-shelf policies.</li>
+  <li><span class="rl-q">Generalizable autonomy in open worlds.</span> We're interested in intelligent autonomy that works in messy, unstructured, everyday human environmnets. We're approaching this goal by reducing the sim2real gap in both the policy training as well as in the training environments. More critically, our end goal is to  integrate this intelligence into the control layer.</li>
 
   <li><span class="rl-q">Agile whole body feedback-control.</span> Wheeled robots are easier to control since the action space is two-dimensional. Humanoid robots are not only high-dimensional, but also underactuated. Therefore, in addition to motion planning, one must also solve whole body control problems with feedback.</li>
 
