@@ -63,17 +63,18 @@ permalink: /people/
 <!-- </div> -->
 
 
-| Who are they  |First position after CRΔL| Publications/Outcomes |
-| :------------- |:-------------| :-----------|
-| [Rahul Maligi](https://www.linkedin.com/in/rahul-maligi/) |MS at UIUC &rarr; Amazon | [RA-L 2023](https://ieeexplore.ieee.org/document/10093969)|
-| [Zayne Sprague](https://zaynesprague.com/) | PhD at UT Austin &rarr; PhD at NYU| [AAAI 2024](https://ojs.aaai.org/index.php/AAAI/article/view/30562)|
-| [Arya Anantula](https://www.linkedin.com/in/arya-anantula/) |MS at Georgia Tech | [MRS 2025](https://ieeexplore.ieee.org/abstract/document/11357249), [RA-L 2023](https://ieeexplore.ieee.org/document/10093969)|
-| [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) |Space X | [L4DC 2025](https://livenet-uva.github.io/)|
-| [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | MS at CMU | [L4DC 2025](https://livenet-uva.github.io/)|
-| [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) |  Metron | [MRS 2025](https://gamechat-uva.github.io/)|
-| [Aleesha Khurram](https://www.linkedin.com/in/aleesha-khurram-4bb262262/) | MS at Oxford | [Preprint](https://arxiv.org/pdf/2511.12755)|
-| [Himesh Ahuja](https://www.linkedin.com/in/himesh-ahuja/)| Currently at UVA | [Ingrassia Family Grant of $2,000](https://echols.as.virginia.edu/scholarships-echols-scholars)|
-| [Luc D'Costa](https://www.linkedin.com/in/luc-dcosta/?isSelfProfile=false)| Currently at UVA | [Water 2026](https://www.mdpi.com/2073-4441/18/15/1809)|
+| # | Who are they  |First position after CRΔL| Publications/Outcomes |
+| :---: | :------------- |:-------------| :-----------|
+| 1 | [Tianrui Guan](https://tianruiguan.phd/) |PhD at UMD &rarr; Waymo | [RA-L 2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9126166)|
+| 2 | [Rahul Maligi](https://www.linkedin.com/in/rahul-maligi/) |MS at UIUC &rarr; Amazon | [RA-L 2023](https://ieeexplore.ieee.org/document/10093969)|
+| 3 | [Zayne Sprague](https://zaynesprague.com/) | PhD at UT Austin &rarr; PhD at NYU| [AAAI 2024](https://ojs.aaai.org/index.php/AAAI/article/view/30562)|
+| 4 | [Arya Anantula](https://www.linkedin.com/in/arya-anantula/) |MS at Georgia Tech | [MRS 2025](https://ieeexplore.ieee.org/abstract/document/11357249), [RA-L 2023](https://ieeexplore.ieee.org/document/10093969)|
+| 5 | [Siddharth Lakkoju](https://www.linkedin.com/in/siddharthlakkoju/) |Space X | [L4DC 2025](https://livenet-uva.github.io/)|
+| 6 | [Srikar Guoru](https://www.linkedin.com/in/srikar-gouru-090244181) | MS at CMU | [L4DC 2025](https://livenet-uva.github.io/)|
+| 7 | [Vagul Mahadevan](https://www.linkedin.com/in/vagul-mahadevan) |  Metron | [MRS 2025](https://gamechat-uva.github.io/)|
+| 8 | [Aleesha Khurram](https://www.linkedin.com/in/aleesha-khurram-4bb262262/) | MS at Oxford | [Preprint](https://arxiv.org/pdf/2511.12755)|
+| 9 | [Himesh Ahuja](https://www.linkedin.com/in/himesh-ahuja/)| Currently at UVA | [Ingrassia Family Grant of $2,000](https://echols.as.virginia.edu/scholarships-echols-scholars)|
+| 10 | [Luc D'Costa](https://www.linkedin.com/in/luc-dcosta/?isSelfProfile=false)| Currently at UVA | [Water 2026](https://www.mdpi.com/2073-4441/18/15/1809)|
 
 <!-- Add more rows as needed -->
 {% endif %}
